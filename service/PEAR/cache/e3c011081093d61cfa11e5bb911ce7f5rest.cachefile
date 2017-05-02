@@ -1,0 +1,5 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:9:"HTML_Form";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:12:"/rest/c/HTML";}s:8:"_content";s:4:"HTML";}s:1:"l";s:11:"PHP License";s:1:"s";s:24:"Simple HTML form package";s:1:"d";s:414:"This is a simple HTML form generator.  It supports all the HTML form element types including file uploads, may return or print the form, just individual form elements or the full form in "table mode" with a fixed layout.
+
+Release 1.3.0 of this package contains important security fixes.  All users of this package must make sure they are using 1.3.0 or greater.
+
+This package has been superceded by HTML_QuickForm.";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:17:"/rest/r/html_form";}}}

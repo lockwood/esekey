@@ -1,0 +1,257 @@
+/* +----------------------------------------------------------------------+ */
+/* | ESE STYLES  - Style Sheet for base Esekey Web Pages - Company 0      | */
+/* +----------------------------------------------------------------------+ */
+/* | Copyright (c) 2003-2004 Esekey Limited                               | */
+/* +----------------------------------------------------------------------+ */
+/* | Author:  Dave Lockwood <dave@esekey.com>                             | */
+/* +----------------------------------------------------------------------+ */
+/*                                                                          */
+/* $Id: 0/esestyles.css, V1.00 2003/10/01                                   */
+/*                                                                          */
+
+/*body      {color: #000000;
+           font-family: Verdana, "Times New Roman", Times;
+           font-size: 9pt;}
+*/
+html, body, #wrapper {
+      height:100%;
+      margin: 0;
+      padding: 0;
+      border: none;
+      text-align: left;
+}
+.currentsection  {background-color: steelblue;
+             font-size: 10pt;
+             font-weight: bold; 
+   		 	 font-style: italic;
+		 	 width: 25%; 
+             height: 20px;
+             text-align: center;
+             vertical-align: center;}
+
+.othersection  {background-color: lightblue;
+             font-size: 10pt;
+             font-weight: bold; 
+		 font-style: italic; 
+		 width: 25%; 
+             height: 20px;
+             text-align: center;
+             vertical-align: center;}
+
+.maintext   {font-family: Verdana, "Times New Roman", Times;
+            font-size: 9pt;}
+
+.headtext   {font-family: "Times New Roman", fantasy, Rockwell;
+            background-color: #ECEAFF;
+		color: blue;
+            font-size: 20pt;
+		font-style: italic; 
+		font-weight: bold;}
+
+.alt1 {
+	background-color : #F0F0F0;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.alt1-center {
+	background-color : #F0F0F0;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+
+.alt1-right {
+	background-color : #F0F0F0;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : right;
+}
+
+.alt2 {
+	background-color : #FCFCFC;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.alt2-center {
+	background-color : #FCFCFC;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+
+.alt2-right {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : right;
+}
+
+.avail {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.avail-center {
+	background-color : #BBFF88;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+
+.rsrv {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.rsrv-center {
+	background-color : #FF3333;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+
+.fill {
+	background-color : white;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.year {
+	background-color : silver;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.year-center {
+	background-color : silver;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+
+.prov {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.prov-center {
+	background-color : #FFFF88;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+
+A:link    {color: blue;
+           text-decoration: none;}
+
+A:visited {color: blue;
+           text-decoration: none;}
+
+A:hover  {color: black;
+           text-decoration: underline;
+           cursor: hand;}
+
+td          {font-family: Verdana, "Times New Roman", Times;
+             font-size: 10pt;}
+
+td.lefthead {background-color: #000070;
+             color: #ECEAFF;
+             width: 15%;
+             height: 36px; 
+             text-align: right;
+             font-weight: bold;}
+
+td.midhead {background-color: lightskyblue;
+             color: #000070;
+             height: 36px;
+             text-align: left;
+             font-weight: bold;}
+
+td.righthead {background-color: lightskyblue;
+             color: #000070;
+             width: 15%;
+             height: 36px;
+             text-align: center;
+             vertical-align: middle;}
+
+td.indexcol  {background-color: #D0CCFF;
+             width: 20%;
+             font-size: 7.5pt;
+             font-weight: normal;
+             text-align: center;
+             vertical-align: top;}
+
+td.leftcol  {background-color: #D0CCFF;
+             font-size: 7.5pt;
+             font-weight: normal;
+             text-align: center;
+             vertical-align: top;}
+
+td.midcol   {text-align: left;
+             vertical-align: top;}
+
+td.rightcol {background-color: #D0CCFF;
+             text-align: center; 
+             font-size: 7.5pt;
+             vertical-align: top;}
+
+td.leftfoot {background-color: #000070;
+             color: #ECEAFF;
+             height: 20px;}
+
+td.rightfoot {background-color: #000070;
+             color: #ECEAFF;
+             height: 20px;
+             text-align: left;
+             vertical-align: center;}
+td.currstep  {background-color: steelblue;
+             font-size: 8pt;
+             font-weight: bold; 
+   		 font-style: italic;
+             text-align: left;
+             vertical-align: center;}
+
+td.otherstep  {background-color: lightblue;
+             font-size: 8pt;
+             font-weight: bold; 
+		 font-style: italic; 
+             text-align: left;
+             vertical-align: center;}
+
+td.compstep  {background-color: lightgreen;
+             font-size: 8pt;
+             font-weight: bold; 
+		 font-style: italic; 
+             text-align: left;
+             vertical-align: center;}

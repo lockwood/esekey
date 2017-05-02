@@ -1,0 +1,85 @@
+/* +----------------------------------------------------------------------+ */
+/* | PRINT  - Style Sheet for Admin Console Print                         | */
+/* +----------------------------------------------------------------------+ */
+/* | Copyright (c) 2003-2004 Esekey Limited                               | */
+/* +----------------------------------------------------------------------+ */
+/* | Author:  Dave Lockwood <dave@esekey.com>                             | */
+/* +----------------------------------------------------------------------+ */
+/*                                                                          */
+/* $Id: print.css, V1.00 2003/10/01                                         */
+/*                                                                          */
+
+form {
+	border : 0;
+	margin : 0;
+	padding : 0;
+}
+
+.alt1 {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.alt2 {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.button {
+	font-family : Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 9pt;
+	font-weight : bold;
+	height : 23px;
+	width : 85px;
+}
+
+.header-left {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 9pt;
+	font-weight : bold;
+	height : 23px;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.input {
+	font-family : Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+}
+
+.print {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 12pt;
+	font-weight : bold;
+	height : 23px;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.table-heading {
+	background-color : #CCCCCC;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	font-weight : bold;
+}
+
+.table-body {
+	background-color : #FFFFFF;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+}
+
+.text {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+}
+
+.title {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 14pt;
+	font-weight : bold;
+}

@@ -1,0 +1,5 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:9:"PEAR_Info";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:12:"/rest/c/PEAR";}s:8:"_content";s:4:"PEAR";}s:1:"l";s:11:"PHP License";s:1:"s";s:57:"Show Information about your PEAR install and its packages";s:1:"d";s:455:"This package generates a comprehensive information page for your current PEAR install.
+* The format for the page is similar to that for phpinfo() except using PEAR colors.
+* Has complete PEAR Credits (based on the packages you have installed).
+* Will show if there is a newer version than the one presently installed (and what its state is)
+* Each package has an anchor in the form pkg_PackageName - where PackageName is a case-sensitive PEAR package name";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:17:"/rest/r/pear_info";}}}

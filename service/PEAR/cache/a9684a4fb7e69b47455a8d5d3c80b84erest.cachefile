@@ -1,0 +1,8 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:10:"Gtk_Styled";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:22:"/rest/c/Gtk+Components";}s:8:"_content";s:14:"Gtk Components";}s:1:"l";s:11:"PHP License";s:1:"s";s:119:"PHP-GTK pseudo-widgets that mimic GtkData based objects and allow the look and feel to be controlled by the programmer.";s:1:"d";s:548:"While it is possible to control some style elements of a GtkScrollBar,
+other elements cannot be controlled so easily. Items such as the images
+at the begining and end (usually arrows) and the scroll bar that is 
+dragged to scroll the element cannot be changed. This leads to 
+applications that either must conform to the windowing systems look
+and feel or appear incomplete. The goal of this family of PHP-GTK 
+classes is to provide all the same functionality as a normal scroll
+bar but allow the user to have better control over the look and feel.";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:18:"/rest/r/gtk_styled";}}}

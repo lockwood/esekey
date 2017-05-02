@@ -1,0 +1,9 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:10:"HTML_Table";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:12:"/rest/c/HTML";}s:8:"_content";s:4:"HTML";}s:1:"l";s:11:"PHP_License";s:1:"s";s:88:"PEAR::HTML_Table makes the design of HTML tables easy, flexible, reusable and efficient.";s:1:"d";s:429:"The PEAR::HTML_Table package provides methods for easy and efficient design of HTML tables.
+ - Lots of customization options.
+ - Tables can be modified at any time.
+ - The logic is the same as standard HTML editors.
+ - Handles col and rowspans.
+ - PHP code is shorter, easier to read and to maintain.
+ - Tables options can be reused.
+
+For auto filling of data and such then check out http://pear.php.net/package/HTML_Table_Matrix";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:18:"/rest/r/html_table";}}}

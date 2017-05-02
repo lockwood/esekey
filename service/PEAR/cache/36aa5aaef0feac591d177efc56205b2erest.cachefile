@@ -1,0 +1,6 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:8:"Net_IPv6";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:18:"/rest/c/Networking";}s:8:"_content";s:10:"Networking";}s:1:"l";s:3:"BSD";s:1:"s";s:33:"Check and validate IPv6 addresses";s:1:"d";s:239:"The class allows you to:
+* check if an address is an IPv6 address
+* compress/uncompress IPv6 addresses
+* check for an IPv4 compatible ending in an IPv6 address
+* check the assigned address space of an IPv6 address
+* do netmask calculations";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:16:"/rest/r/net_ipv6";}}}

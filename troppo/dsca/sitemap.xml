@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://www.troppo.uk.com/dsca/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/3.4.2" -->
+<!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="3.2.8" -->
+<!-- generated-on="March 3, 2014 2:15 pm" -->
+<!-- Debug: Total comment count: 0 -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
+		<loc>http://www.troppo.uk.com/dsca/</loc>
+		<lastmod>2014-03-03T14:14:43+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
+<!-- Debug: Start Postings -->
+	<url>
+		<loc>http://www.troppo.uk.com/dsca/offers/</loc>
+		<lastmod>2014-03-03T14:10:10+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.troppo.uk.com/dsca/accommodation/the-smithy/</loc>
+		<lastmod>2014-01-29T10:31:57+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.troppo.uk.com/dsca/accommodation/wisteria/</loc>
+		<lastmod>2014-01-29T10:31:47+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.troppo.uk.com/dsca/accommodation/gardeners-bothy/</loc>
+		<lastmod>2014-01-29T10:29:54+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.troppo.uk.com/dsca/booking/</loc>
+		<lastmod>2014-01-29T10:26:46+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.troppo.uk.com/dsca/access-statement/</loc>
+		<lastmod>2014-01-29T10:23:41+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.troppo.uk.com/dsca/groups/</loc>
+		<lastmod>2012-09-24T17:14:18+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.troppo.uk.com/dsca/booking/availability/</loc>
+		<lastmod>2012-06-08T08:47:50+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.troppo.uk.com/dsca/corporate/</loc>
+		<lastmod>2012-06-02T16:08:52+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.troppo.uk.com/dsca/local/</loc>
+		<lastmod>2012-04-25T12:23:09+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>#</loc>
+		<lastmod>2012-04-25T12:14:06+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.troppo.uk.com/dsca/information/</loc>
+		<lastmod>2012-04-25T12:13:36+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.troppo.uk.com/dsca/contact-us/</loc>
+		<lastmod>2012-04-18T20:39:40+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: End Postings -->
+<!-- Debug: Start Custom Pages -->
+<!-- Debug: End Custom Pages -->
+<!-- Debug: Start additional URLs -->
+<!-- Debug: End additional URLs -->
+</urlset>

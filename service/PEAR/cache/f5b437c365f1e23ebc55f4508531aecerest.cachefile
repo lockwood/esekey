@@ -1,0 +1,14 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:15:"Image_Transform";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:14:"/rest/c/Images";}s:8:"_content";s:6:"Images";}s:1:"l";s:11:"PHP License";s:1:"s";s:76:"Provides a standard interface to manipulate images using different libraries";s:1:"d";s:395:"This package was written to provide a simpler and cross-library interface to doing image transformations and manipulations.
+It provides :
+
+* support for GD, ImageMagick, Imagick and NetPBM
+* files related functions
+* addText
+* Scale (by length, percentage, maximum X/Y)
+* Resize
+* Rotate (custom angle)
+* Crop
+* Mirror (Most drivers)
+* Flip (Most drivers)
+* Add border (soon)
+* Add shadow (soon)";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:23:"/rest/r/image_transform";}}}

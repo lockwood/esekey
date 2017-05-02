@@ -1,0 +1,5 @@
+[15-Jan-2006 19:41:27] PHP Warning:  main(properties.php): failed to open stream: No such file or directory in /home/esekey9/public_html/selfcateringmap/counter.php on line 15
+[15-Jan-2006 19:41:27] PHP Warning:  main(properties.php): failed to open stream: No such file or directory in /home/esekey9/public_html/selfcateringmap/counter.php on line 15
+[15-Jan-2006 19:41:27] PHP Warning:  main(properties.php): failed to open stream: No such file or directory in /home/esekey9/public_html/selfcateringmap/counter.php on line 15
+[15-Jan-2006 19:41:27] PHP Fatal error:  main(): Failed opening required 'properties.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/esekey9/public_html/selfcateringmap/counter.php on line 15
+[04-Feb-2006 12:52:35] PHP Parse error:  syntax error, unexpected '}' in /home/esekey9/public_html/selfcateringmap/index.php on line 26

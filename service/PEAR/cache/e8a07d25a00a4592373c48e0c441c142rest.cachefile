@@ -1,0 +1,5 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:14:"Text_TeXHyphen";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:12:"/rest/c/Text";}s:8:"_content";s:4:"Text";}s:1:"l";s:3:"PHP";s:1:"s";s:50:"Automated word hyphenation with the TeX algorithm.";s:1:"d";s:418:"This package implements the TeX hyphenation algorithm based on pattern.
+
+The package can support various backends for pattern retrieval. At this stage only flat files with TeX pattern were implemented. The advantage of the TeX pattern is the available multi-language support. Currently german, oxford and american english are supported.
+
+For speed purposes an interface for a cache of hyphenated words was implemented.";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:22:"/rest/r/text_texhyphen";}}}

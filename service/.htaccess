@@ -1,0 +1,9 @@
+
+AuthType Basic
+
+AuthName "Service"
+
+AuthUserFile "/home/esekey9/.htpasswds/service/passwd"
+
+
+require valid-user

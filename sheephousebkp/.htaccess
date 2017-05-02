@@ -1,0 +1,46 @@
+RewriteEngine on
+
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !/idxs [NC]
+RewriteCond %{REQUEST_URI} !/esestyles [NC]
+RewriteCond %{REQUEST_URI} !/eseSite [NC]
+RewriteCond %{REQUEST_URI} !/background [NC]
+RewriteCond %{REQUEST_URI} !/counter [NC]
+RewriteCond $1 !^(index\.php|images|css|js|fonts|robots\.txt|showpic\.php|favicon\.ico|favicon\.gif|captcha|newfile\.php|editor|google6eb440cd6f9c009d\.html|rss\.asp|link\.asp|pubhols\.asp|dst\.asp|BingSiteAuth\.xml)
+
+RewriteRule ^(.*)$ /index.php/$1 [L]	
+
+Redirect 301 /index.html /
+
+Redirect 301 /p1.html /
+
+Redirect 301 /p2.html /westwing
+
+Redirect 301 /p4.html /
+
+Redirect 301 /p12.html /southlands
+
+Redirect 301 /p5.html /location
+
+Redirect 301 /p6.html /local
+
+Redirect 301 /p7.php /availability
+
+Redirect 301 /p8.php /rates
+
+Redirect 301 /p10.php /booking
+
+Redirect 301 /p11.php /
+
+Redirect 301 /p19.php /guestbook
+
+Redirect 301 /p15.html https://translate.google.co.uk/translate?hl=en&sl=auto&tl=fr&u=www.sheephousemanor.co.uk
+
+Redirect 301 /p16.html https://translate.google.co.uk/translate?hl=en&sl=auto&tl=de&u=www.sheephousemanor.co.uk
+
+Redirect 301 /p17.html https://translate.google.co.uk/translate?hl=en&sl=auto&tl=es&u=www.sheephousemanor.co.uk
+
+Redirect 301 /p18.html https://translate.google.co.uk/translate?hl=en&sl=auto&tl=it&u=www.sheephousemanor.co.uk
+
+
+

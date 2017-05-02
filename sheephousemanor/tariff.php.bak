@@ -1,0 +1,85 @@
+<?php
+// +----------------------------------------------------------------------+
+// | TARIFF  - EseSite booking tariff display - Company 4                 |
+// +----------------------------------------------------------------------+
+// | Copyright (c) 2003-2006 Esekey Limited                               |
+// +----------------------------------------------------------------------+
+// | Author:  Dave Lockwood <dave@esekey.com>                             |
+// +----------------------------------------------------------------------+
+//
+// $Id: 4/tariff.php,v 1.05 2006/10/19
+//
+
+$sleeparray = array (" ", "1-2", "2-5", "2-3", "2-3", "2-5");
+$typearray = array (" ", "Studio with double bed, kitchenette and shower room",
+                    "Double bedroom, single en-suite bedroom, lounge with sofa bed, bathroom and kitchen. Suitable for 3 adults and 2 children.",
+                    "Double bedroom, lounge with sofa bed, kitchen and bathroom",
+                    "Large studio with double bed, sofa bed, kitchen and bathroom",
+                    "Double and twin bedrooms, bathrooms, kitchen/diner, lounge with trundle bed, garden");
+
+?>
+<table width="750" cellspacing="0" align="center" cellpadding="4">
+  <tr>
+    <td colspan="5">&nbsp;</td>
+  </tr>
+  <tr>
+    <th colspan="5">Bed &amp; Breakfast</th>
+  </tr>
+  <tr>
+    <td colspan="5">B &amp; B Prices include continental buffet, VAT and service.</td>
+  </tr>
+  <tr>
+    <td><b>2011 Rates</b></td><td colspan="4">Single en suite from &pound;60.00 per night.  Double or twin en suite from &pound;70.00 per night<br/>Fri/Sat nights from &pound;75.00 / &pound;85.00. Saturday night bookings, minimum stay 2 nights.</td>
+  </tr>
+  <tr>
+    <td colspan="5">&nbsp;</td>
+  </tr>
+  <tr>
+    <th colspan="5">Self Catering</th>
+  </tr>
+  <tr>
+    <th>Cottage<sup> </sup></th><th width="100" style="text-align:left;">Type<sup> </sup></th><th>Sleeps<sup> </sup></th><th>Weekly<sup> </sup></th><th>High&nbsp;Season<sup>*</sup></th>
+  </tr>
+  <?php
+// temporary override of prices 28/01/2010
+$low_array = array(1=>45,2=>75,3=>50,4=>50,5=>80);
+$high_array = array(1=>50,2=>100,3=>65,4=>65,5=>110);
+foreach ($resourcearray as $propertyrow) {
+//    foreach ($pricearray as $pricerow) {
+//        if ($pricerow['price_code'] == $propertyrow['price_code']) {
+            echo '<tr><td align="center">'.$propertyrow['property_name'].'</td>';
+            echo '<td width="400">'.$typearray[$propertyrow[property_id]].'</td>';
+            echo '<td align="center">'.$sleeparray[$propertyrow[property_id]].'</td>';
+            //echo '<td align="center">from £'.number_format(0.75*$pricerow['daily_rate']*7.00,2).'</td>';
+            //echo '<td align="center">from £'.number_format($pricerow['daily_rate']*7.00,2).'</td></tr>';
+            echo '<td align="center">£'.number_format($low_array[$propertyrow[property_id]]*7.00,2).'</td>';
+            echo '<td align="center">£'.number_format($high_array[$propertyrow[property_id]]*7.00,2).'</td></tr>';
+//        }
+//    }
+} ?>
+  <tr>
+    <td colspan="5">&nbsp;</td>
+  </tr>
+  <tr>
+    <td><b><sup>*</sup></b>High&nbsp;Season</td>
+    <td colspan="4">(2011) Apr 2 - Oct 28; Dec 17 - Jan 6; (2012) Feb 11 - 17; Mar 31 - Oct 27; Dec 15 - Jan 5 (2013)</td>
+  </tr>
+  <tr>
+    <td colspan="5">Availability and prices during the Olympics to be confirmed.</td>
+  </tr>
+  <tr>
+    <td colspan="5">Self Catering Prices include VAT and Service, towels, linen, heating, lighting and weekly cleaning. One week minimum let.<br/><br/>
+Dogs £5.00 per night.</td>
+  </tr>
+  <tr>
+    <th colspan="5">Legoland / Chessington World of Adventures / Thorpe Park</th>
+  </tr>
+  <tr>
+    <td colspan="5">Tickets for 2 consecutive days at each of these venues may be booked with
+your accommodation for &pound;45.00 per adult or child.
+Tickets valid for 1 venue each and must be prepaid and are non refundable.</td>
+  </tr>
+  <tr>
+    <td colspan="5">&nbsp;</td>
+  </tr>
+</table> 

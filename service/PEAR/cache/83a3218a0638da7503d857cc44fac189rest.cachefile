@@ -1,0 +1,24 @@
+a:14:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.release";s:18:"xsi:schemaLocation";s:81:"http://pear.php.net/dtd/rest.release     http://pear.php.net/dtd/rest.release.xsd";}s:1:"p";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:21:"/rest/p/db_dataobject";}s:8:"_content";s:13:"DB_DataObject";}s:1:"c";s:12:"pear.php.net";s:1:"v";s:3:"1.0";s:2:"st";s:6:"stable";s:1:"l";s:11:"PHP License";s:1:"m";s:6:"alan_k";s:1:"s";s:51:"An SQL Builder, Object Interface to Database Tables";s:1:"d";s:357:"DataObject performs 2 tasks:
+  1. Builds SQL statements based on the objects vars and the builder methods.
+  2. acts as a datastore for a table row.
+  The core class is designed to be extended for each of your tables so that you put the 
+  data logic inside the data classes.
+  included is a Generator to make your configuration files and your base classes.";s:2:"da";s:19:"2003-07-16 03:28:00";s:1:"n";s:1234:"- Gold 1.0 Release.. - final stable release in this series. Future versions 
+  (eg. 1.1.*(dev)->1.2.*(release)) series will be generally API compatible, 
+  however is likely to use MDB rather than DB.
+- fix bug #23983 - argument checking on whereAdd, orderBy, limit and a few others
+  (Mike Carter)
+- fix bug with cache clearing not working with staticGet and update/insert
+- null comparison for $object->var = 'null' will generate IS NULL query
+- null insert/update  works when using 'null' as a value.
+- getLinks returns true on success
+- getLinks now has a formatter eg. '_%s' is default to allow user to define the
+  format of variables to assign child objects to.
+- generator uses UNIQUE only if no primary/autoincrement type field is found.
+- added support for $object->having('sum(value) > 10');
+- fetch will remove some query lines (so if you want to see how the query was built
+  you will have to print_r() the object after find(), and before fetch(), or just use
+  debugLevel(1)
+- overload calls from setFrom and toArray do method checks, as overload is still proving to
+  be a little unstable especially with Zend Encoder. (Note: if DataObjects causes crashes 
+  , remove the overload code at the bottom of DataObjects.php)";s:1:"f";s:5:"26278";s:1:"g";s:41:"http://pear.php.net/get/DB_DataObject-1.0";s:1:"x";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:15:"package.1.0.xml";}}}

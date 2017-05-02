@@ -1,0 +1,8 @@
+[04-May-2005 23:12:15] PHP Warning:  chdir(): SAFE MODE Restriction in effect.  The script whose uid is 32352 is not allowed to access /home owned by uid 0 in /home/esekey9/public_html/index.php on line 17
+[04-May-2005 23:12:15] PHP Warning:  main(db_connect.php): failed to open stream: No such file or directory in /home/esekey9/public_html/index.php on line 20
+[04-May-2005 23:12:15] PHP Warning:  main(db_connect.php): failed to open stream: No such file or directory in /home/esekey9/public_html/index.php on line 20
+[04-May-2005 23:12:15] PHP Fatal error:  main(): Failed opening required 'db_connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/esekey9/public_html/index.php on line 20
+[04-May-2005 23:24:32] PHP Warning:  chdir(): SAFE MODE Restriction in effect.  The script whose uid is 32352 is not allowed to access /home owned by uid 0 in /home/esekey9/public_html/index.php on line 17
+[04-May-2005 23:24:32] PHP Warning:  main(db_connect.php): failed to open stream: No such file or directory in /home/esekey9/public_html/index.php on line 20
+[04-May-2005 23:24:32] PHP Warning:  main(db_connect.php): failed to open stream: No such file or directory in /home/esekey9/public_html/index.php on line 20
+[04-May-2005 23:24:32] PHP Fatal error:  main(): Failed opening required 'db_connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/esekey9/public_html/index.php on line 20

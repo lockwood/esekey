@@ -1,0 +1,4 @@
+# robots.txt for http://www.allmybookings.co.uk/
+
+User-agent: *
+Disallow: /index.php?p=1

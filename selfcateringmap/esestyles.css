@@ -1,0 +1,81 @@
+body         { font-family: Arial, Helvetica, sans-serif; font-size: 9px; color: #000000 }
+td           { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color:#000000 }
+a            { color: #FFFFFF; font-size:8pt; font-weight:bold; text-decoration: none}
+a:hover      { font-size:8pt; font-weight:bold ; text-decoration: underline}
+h1           { color: #003366; font-size: 12pt; font-weight: bold }
+h2           { font-size: 10pt; color: #003366; font-weight: bold }textarea     { font-family: Arial; font-size: 10pt }
+td.contact {color: #000000;
+             text-align: center; 
+             vertical-align: top;}
+
+.E {
+	background-color : #BBFF88;
+      border : solid #BBFF88 1px;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 3px;
+	padding-right : 3px;
+	text-align : center;
+}
+
+.C {
+	background-color : #FF3333;
+      border : solid black 1px;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 3px;
+	padding-right : 3px;
+	text-align : center;
+}
+
+.fill {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 3px;
+	padding-right : 3px;
+}
+
+.year {
+	background-color : silver;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 3px;
+	padding-right : 3px;
+}
+
+.year-center {
+	background-color : silver;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 3px;
+	padding-right : 3px;
+	text-align : center;
+}
+
+.P {
+	background-color : #FFFF88;
+      border : dashed black 1px;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 3px;
+	padding-right : 3px;
+	text-align : center;
+}
+.input {
+	font-family : Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+}
+td.midhead {background-color: green;
+             color: #ECEAFF;
+             height: 3px;
+             vertical-align: bottom;
+             text-align: left;
+             font-weight: bold;}
+
+td.righthead {background-color: #BBFF88;
+             color: #000070;
+             width: 14%;
+             height: 3px;
+             vertical-align: bottom;
+             text-align: left;}
+

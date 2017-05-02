@@ -1,0 +1,270 @@
+/* +----------------------------------------------------------------------+ */
+/* | ESE STYLES  - Style Sheet for Booking Web Page - Company 8           | */
+/* +----------------------------------------------------------------------+ */
+/* | Copyright (c) 2003-2005 Esekey Limited                               | */
+/* +----------------------------------------------------------------------+ */
+/* | Author:  Dave Lockwood <dave@esekey.com>                             | */
+/* +----------------------------------------------------------------------+ */
+/*                                                                          */
+/* $Id: bkgstyles.css, V1.00 2005/09/11                                     */
+/*                                                                          */
+
+body      {color: #000000;
+           font-family: Verdana, "Times New Roman", Times;
+           font-size: 9pt;}
+
+.maintext   {font-family: Verdana, "Times New Roman", Times;
+            font-size: 9pt;}
+
+.headtext   {font-family: "Verdana", fantasy, Rockwell;
+             background-color: #FFFFDD;
+		 color: brown;
+             text-align : left;
+             font-size: 24pt;
+             font-style: italic;
+		 font-weight: bold;}
+
+.input {
+	font-family : Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+}
+
+.alt1 {
+	background-color : #F0F0F0;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 2px;
+	padding-right : 2px;
+}
+
+.alt1-center {
+	background-color : #F0F0F0;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 2px;
+	padding-right : 2px;
+	text-align : center;
+}
+
+.alt1-right {
+	background-color : #F0F0F0;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 2px;
+	padding-right : 2px;
+	text-align : right;
+}
+
+.alt2 {
+	background-color : #FCFCFC;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 2px;
+	padding-right : 2px;
+}
+
+.alt2-center {
+	background-color : #FCFCFC;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 2px;
+	padding-right : 2px;
+	text-align : center;
+}
+
+.alt2-right {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 2px;
+	padding-right : 2px;
+	text-align : right;
+}
+
+.avail {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 2px;
+	padding-right : 2px;
+}
+
+.map {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+	padding-left : 2px;
+	padding-right : 2px;
+}
+
+.maprd {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+      color: blue;
+      background-color: orange;
+	padding-left : 2px;
+	padding-right : 2px;
+}
+
+.E {
+	background-color : #BBFF88;
+      border : solid #BBFF88 1px;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+	padding-left : 2px;
+	padding-right : 2px;
+	text-align : center;
+}
+
+.rsrv {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 2px;
+	padding-right : 2px;
+}
+
+.C {
+	background-color : #FF3333;
+      border : solid black 1px;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+	padding-left : 2px;
+	padding-right : 2px;
+	text-align : center;
+}
+
+.fill {
+	background-color : white;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 2px;
+	padding-right : 2px;
+}
+
+.year {
+	background-color : silver;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+	padding-left : 2px;
+	padding-right : 2px;
+}
+
+.year-center {
+	background-color : silver;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+	padding-left : 2px;
+	padding-right : 2px;
+	text-align : center;
+}
+
+.prov {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 2px;
+	padding-right : 2px;
+}
+
+.P {
+	background-color : #FFFF88;
+      border : dashed black 1px;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+	padding-left : 2px;
+	padding-right : 2px;
+	text-align : center;
+}
+
+A:link    {color: green;
+           text-decoration: none;}
+
+A:visited {color: green;
+           text-decoration: none;}
+
+A:hover  {color: black;
+           text-decoration: underline;
+           cursor: hand;}
+
+td          {font-family: Verdana, "Times New Roman", Times;
+             font-size: 10pt;}
+
+td.lefthead {background-color: #BBFF88;
+             color: black;
+             width: 14%;
+             height: 24px; 
+             vertical-align: bottom;
+             text-align: right;
+             font-weight: bold;}
+
+td.midline {background-color: #BBFF88;
+             color: #000070;
+             height: 3px;
+             vertical-align: bottom;
+             text-align: left;
+             font-weight: bold;}
+
+td.midhead {background-color: green;
+             color: #ECEAFF;
+             height: 3px;
+             vertical-align: bottom;
+             text-align: left;
+             font-weight: bold;}
+
+td.righthead {background-color: #BBFF88;
+             color: #000070;
+             width: 14%;
+             height: 3px;
+             vertical-align: bottom;
+             text-align: left;}
+
+td.leftcol  {background-color: #FFFFAA;
+             font-weight: bold;
+             text-align: right;
+             vertical-align: top;}
+
+td.midcol   {text-align: left;
+             vertical-align: top;}
+
+td.rightcol {background-color: #FFFFAA;
+             text-align: center; 
+             font-size: 7.5pt;
+             vertical-align: top;}
+
+td.contact {background-color: #FFFFDD;
+             text-align: center; 
+             font-size: 7.5pt;
+             vertical-align: top;}
+
+td.leftfoot {background-color: green;
+             color: #ECEAFF;
+             height: 20px;}
+
+td.rightfoot {background-color: green;
+             color: #ECEAFF;
+             height: 20px;
+             text-align: left;
+             vertical-align: center;}
+td.currstep  {background-color: steelblue;
+             font-size: 8pt;
+             font-weight: bold; 
+   		 font-style: italic;
+             text-align: left;
+             vertical-align: center;}
+
+td.otherstep  {background-color: lightblue;
+             font-size: 8pt;
+             font-weight: bold; 
+		 font-style: italic; 
+             text-align: left;
+             vertical-align: center;}
+
+td.compstep  {background-color: lightgreen;
+             font-size: 8pt;
+             font-weight: bold; 
+		 font-style: italic; 
+             text-align: left;
+             vertical-align: center;}

@@ -1,0 +1,261 @@
+/* +----------------------------------------------------------------------+ */
+/* | ESE STYLES  - Style Sheet for Company 5 Web Pages                    | */
+/* +----------------------------------------------------------------------+ */
+/* | Copyright (c) 2003-2004 Esekey Limited                               | */
+/* +----------------------------------------------------------------------+ */
+/* | Author:  Dave Lockwood <dave@esekey.com>                             | */
+/* +----------------------------------------------------------------------+ */
+/*                                                                          */
+/* $Id: 5/esestyles.css, V1.00 2005/01/11                                   */
+/*                                                                          */
+
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #ffffff; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px;
+}
+P {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+      font-size: 8pt;
+}
+.hiddenwhite {
+	COLOR: #ffffff
+}
+.bold {
+	FONT-WEIGHT: bold
+}
+.unbold {
+	FONT-WEIGHT: normal
+}
+.s0gencolor {
+	BACKGROUND: #cc0099
+}
+.s1gencolor {
+	BACKGROUND: #990000
+}
+.s2gencolor {
+	BACKGROUND: #ffcc33
+}
+.s3gencolor {
+	BACKGROUND: #cc0099
+}
+.s4gencolor {
+	BACKGROUND: #000066
+}
+.s6gencolor {
+	BACKGROUND: #006666
+}
+.head3 {
+	FONT-WEIGHT: normal; FONT-SIZE: 14pt; COLOR: #990000; LINE-HEIGHT: 14pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.s0pagehead {
+	FONT-WEIGHT: normal; FONT-SIZE: 14pt; COLOR: #ffffff; LINE-HEIGHT: 14pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.s1pagehead {
+	FONT-WEIGHT: normal; FONT-SIZE: 14pt; COLOR: #ffffff; LINE-HEIGHT: 14pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.s2pagehead {
+	FONT-WEIGHT: normal; FONT-SIZE: 14pt; COLOR: #000066; LINE-HEIGHT: 14pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.s3pagehead {
+	FONT-WEIGHT: normal; FONT-SIZE: 14pt; COLOR: #ffff33; LINE-HEIGHT: 14pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.s4pagehead {
+	FONT-WEIGHT: normal; FONT-SIZE: 14pt; COLOR: #ffffff; LINE-HEIGHT: 14pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.s6pagehead {
+	FONT-WEIGHT: normal; FONT-SIZE: 14pt; COLOR: #ffffff; LINE-HEIGHT: 14pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.s0head {
+	FONT-WEIGHT: normal; FONT-SIZE: 18pt; COLOR: #ffffff; LINE-HEIGHT: 24pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.s1head {
+	FONT-WEIGHT: normal; FONT-SIZE: 18pt; COLOR: #ffffff; LINE-HEIGHT: 24pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.s2head {
+	FONT-WEIGHT: normal; FONT-SIZE: 18pt; COLOR: #000066; LINE-HEIGHT: 24pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.s3head {
+	FONT-WEIGHT: normal; FONT-SIZE: 18pt; COLOR: #ffff33; LINE-HEIGHT: 24pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.s4head {
+	FONT-WEIGHT: normal; FONT-SIZE: 18pt; COLOR: #ffffff; LINE-HEIGHT: 24pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.s6head {
+	FONT-WEIGHT: normal; FONT-SIZE: 18pt; COLOR: #ffffff; LINE-HEIGHT: 24pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.smallerhead {
+	FONT-WEIGHT: normal; FONT-SIZE: 12pt; COLOR: #ffffff; LINE-HEIGHT: 18pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.headscript {
+	FONT-SIZE: 12pt; COLOR: #ffffff; LINE-HEIGHT: 13pt; FONT-STYLE: italic; FONT-FAMILY: Times New Roman, Times, serif
+}
+.s0tablehead {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ffffff; LINE-HEIGHT: 8pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.s1tablehead {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ffffff; LINE-HEIGHT: 8pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.s2tablehead {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #000066; LINE-HEIGHT: 8pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.s3tablehead {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ffff33; LINE-HEIGHT: 8pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.s4tablehead {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ffffff; LINE-HEIGHT: 8pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.s6tablehead {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ffffff; LINE-HEIGHT: 8pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.tablecontent {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #333333; LINE-HEIGHT: 14pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.key {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #333333; LINE-HEIGHT: 14pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.tariffhead {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #000099; LINE-HEIGHT: 9pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.tariffcontent {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #333333; LINE-HEIGHT: 9pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.basictext {
+	FONT-SIZE: 11pt; COLOR: #333333; LINE-HEIGHT: 16pt; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.smaller {
+	FONT-SIZE: 9pt; COLOR: #333333; LINE-HEIGHT: 16pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.formtext {
+	FONT-SIZE: 10pt; COLOR: #333333; LINE-HEIGHT: 12pt; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.calendarheadrow {
+	BACKGROUND: #000066
+}
+.available {
+	BACKGROUND: #cccccc
+}
+.booked {
+	BACKGROUND: #999999
+}
+.calendartitle {
+	FONT-SIZE: 14pt; COLOR: #000066; LINE-HEIGHT: 14pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.calendarhead {
+	FONT-WEIGHT: normal; FONT-SIZE: 11pt; COLOR: #ffffff; LINE-HEIGHT: 13pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.calendarcell {
+	FONT-SIZE: 11pt; COLOR: #000066; LINE-HEIGHT: 13pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.tariffcol1 {
+	BACKGROUND: #cccccc
+}
+.tariffcol2 {
+	BACKGROUND: #99ccff
+}
+.whiteback {
+	BACKGROUND: #ffffff
+}
+.announce {
+	FONT-SIZE: 12pt; LINE-HEIGHT: 20pt; FONT-STYLE: normal; FONT-FAMILY: Times New Roman, Times, serif
+}
+.topmenu {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #333333; LINE-HEIGHT: 10pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.credits {
+	FONT-SIZE: 8pt; COLOR: #3366cc; LINE-HEIGHT: 9pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.maintext   {font-family: Verdana, "Times New Roman", Times;
+            font-size: 9pt;}
+.input {
+	font-family : Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+}
+.midhead {background-color: green;
+             color: #ECEAFF;
+             height: 3px;
+             vertical-align: bottom;
+             text-align: left;
+             font-weight: bold;}
+.righthead {background-color: #BBFF88;
+             color: #000070;
+             width: 14%;
+             height: 3px;
+             vertical-align: bottom;
+             text-align: left;}
+.midcol   {text-align: left;
+             vertical-align: top;}
+.E {
+	background-color : #BBFF88;
+      border : solid #BBFF88 1px;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+.P {
+	background-color : #FFFF88;
+      border : dashed black 1px;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+.C {
+	background-color : #FF3333;
+      border : solid black 1px;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+.fill {
+	background-color : white;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+.name {
+	background-color : silver;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 6pt;
+      font-weight : bold;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+.year {
+	background-color : silver;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+.year-center {
+	background-color : silver;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+A:link {
+	COLOR: #ffff66
+}
+A:visited {
+	COLOR: #ffff66
+}
+A:hover {
+	COLOR: #ffff66
+}
+A:active {
+	COLOR: #999999; TEXT-DECORATION: none
+}
+

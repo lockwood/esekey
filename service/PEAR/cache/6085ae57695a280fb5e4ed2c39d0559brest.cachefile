@@ -1,0 +1,11 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:15:"Math_Quaternion";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:12:"/rest/c/Math";}s:8:"_content";s:4:"Math";}s:1:"l";s:3:"PHP";s:1:"s";s:52:"Classes that define Quaternions and their operations";s:1:"d";s:524:"Classes that represent and manipulate quaternions. Contain definitions
+for basic arithmetic functions in a static class.
+Quaternions are an extension of the idea of complex numbers, and
+a quaternion is defined as: 
+    q = a + b*i + c*j + d*k
+In 1844 Hamilton described a system in which numbers were composed of
+a real part and 3 imaginary and independent parts (i,j,k), such that:
+    i^2 = j^2 = k^2 = -1       and
+    ij = k, jk = i, ki = j     and
+    ji = -k, kj = -i, ik = -j
+The above are known as "Hamilton's rules"";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:23:"/rest/r/math_quaternion";}}}

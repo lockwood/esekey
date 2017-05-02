@@ -1,0 +1,22 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:14:"XML_FastCreate";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:11:"/rest/c/XML";}s:8:"_content";s:3:"XML";}s:1:"l";s:11:"PHP License";s:1:"s";s:44:"Fast creation of valid XML with DTD control.";s:1:"d";s:870:"- Easy way to make valid XML :
+     $x->div(
+         $x->h1("Example"),
+         $x->p("Hello"),
+         $x->p(array('class'=>'example'), "World !")
+     )
+     
+- Option to report DTD errors in your XML :
+  Use internal tool or external program [ Require XML_DTD package ]
+- Use output driver of your choice :
+  Text : return string
+  XML_Tree : return XML_Tree object [ Require XML_Tree package ]
+- Translate option to quickly transform tags by anothers :
+   ex: Convert your XML to XHTML : 
+          <news><title> Example </title></news>
+      =>  <div class="news"><h1><span> Example </span></h1></div>
+- Include a PHP program to quickly transform HTML to FastCreate syntax.
+  [ Require XML_HTMLSax package ]
+- See examples for more informations :
+  http://lya.fr/pear/XML_FastCreate/tests/
+- French Tutorial :
+  http://wiki.lya.fr/doku.php?id=pear_xml_fastcreate";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:22:"/rest/r/xml_fastcreate";}}}

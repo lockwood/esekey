@@ -1,0 +1,13 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:20:"PEAR_RemoteInstaller";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:12:"/rest/c/PEAR";}s:8:"_content";s:4:"PEAR";}s:1:"l";s:11:"PHP License";s:1:"s";s:43:"PEAR Remote installation plugin through FTP";s:1:"d";s:623:"Originally part of the 1.4.0 new features,
+remote installation through FTP is now its own package.
+This package adds the commands "remote-install" "remote-upgrade"
+"remote-uninstall" and "remote-upgrade-all" to the PEAR core.
+
+To take advantage, you must have a config file on the remote
+ftp server and full access to the server to create and remove
+files.  The config-create command can be used to get started,
+and the remote_config configuration variable is set to the
+full URL as in "ftp://ftp.example.com/path/to/pear.ini"
+
+After this is done, install/upgrade as normal using the
+remote* commands as if they were local.";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:28:"/rest/r/pear_remoteinstaller";}}}

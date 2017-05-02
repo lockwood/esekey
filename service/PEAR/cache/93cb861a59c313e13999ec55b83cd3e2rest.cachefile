@@ -1,0 +1,10 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:8:"Var_Dump";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:11:"/rest/c/PHP";}s:8:"_content";s:3:"PHP";}s:1:"l";s:11:"PHP License";s:1:"s";s:69:"Provides methods for dumping structured information about a variable.";s:1:"d";s:499:"The Var_Dump class is a wrapper for the var_dump function.
+
+The var_dump function displays structured information about expressions that includes its type and value. Arrays are explored recursively with values indented to show structure.
+
+The Var_Dump class captures the output of the var_dump function, by using output control functions, and then uses external renderer classes for displaying the result in various graphical ways :
+* Simple text,
+* HTML/XHTML text,
+* HTML/XHTML table,
+* XML,
+* ...";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:16:"/rest/r/var_dump";}}}

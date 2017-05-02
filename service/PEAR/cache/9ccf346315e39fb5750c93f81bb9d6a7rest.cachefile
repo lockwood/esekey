@@ -1,0 +1,5 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:12:"Image_Puzzle";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:14:"/rest/c/Images";}s:8:"_content";s:6:"Images";}s:1:"l";s:11:"PHP License";s:1:"s";s:39:"Generates puzzle pieces from image file";s:1:"d";s:237:"PEAR::Image_Puzzle divides an image to puzzle pieces.
+
+* Provides a few edge styles to generate puzzle pieces
+* Allow saving each piece to separate files
+* Allow getting information about each piece coordinates accoring to original image";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:20:"/rest/r/image_puzzle";}}}

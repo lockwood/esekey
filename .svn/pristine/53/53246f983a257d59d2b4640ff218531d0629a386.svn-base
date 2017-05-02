@@ -1,0 +1,370 @@
+/* +----------------------------------------------------------------------+ */
+/* | ESE STYLES  - Style Sheet for base Esekey Web Pages                  | */
+/* +----------------------------------------------------------------------+ */
+/* | Copyright (c) 2003-2004 Esekey Limited                               | */
+/* +----------------------------------------------------------------------+ */
+/* | Author:  Dave Lockwood <dave@esekey.com>                             | */
+/* +----------------------------------------------------------------------+ */
+/*                                                                          */
+/* $Id: esestyles.css, V1.00 2003/10/01                                     */
+/*                                                                          */
+
+html, body, #wrapper {
+      height:100%;
+      margin: 0;
+      padding: 0;
+      border: none;
+      font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+      text-align: left;
+}
+#currentsection  {background-color: steelblue;
+             font-size: 10pt;
+             font-weight: bold; 
+   		 font-style: italic;
+		 width: 25%; 
+             height: 20px;
+             text-align: center;
+             vertical-align: center;}
+
+.othersection  {background-color: lightblue;
+             font-size: 10pt;
+             font-weight: bold; 
+		 font-style: italic; 
+		 width: 25%; 
+             height: 20px;
+             text-align: center;
+             vertical-align: center;}
+
+.currentsection  {background-color: steelblue;
+             font-size: 10pt;
+             font-weight: bold; 
+   		 font-style: italic;
+		 width: 25%; 
+             height: 20px;
+             text-align: center;
+             vertical-align: center;}
+
+#othersection  {background-color: lightblue;
+             font-size: 10pt;
+             font-weight: bold; 
+		 font-style: italic; 
+		 width: 25%; 
+             height: 20px;
+             text-align: center;
+             vertical-align: center;}
+
+.maintext   {font-family: Verdana, "Times New Roman", Times;
+            font-size: 9pt;}
+
+.headtext   {font-family: "Monotype Corsiva", fantasy, Rockwell;
+		color: blue;
+            font-size: 20pt;
+		font-style: italic; 
+		font-weight: bold;}
+
+.alt1 {
+	background-color : #F0F0F0;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.alt1-center {
+	background-color : #F0F0F0;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+
+.alt1-right {
+	background-color : #F0F0F0;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : right;
+}
+
+.alt2 {
+	background-color : #FCFCFC;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.alt2-center {
+	background-color : #FCFCFC;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+
+.alt2-right {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : right;
+}
+
+.avail {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.avail-center {
+	background-color : #BBFF88;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+
+.rsrv {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.rsrv-center {
+	background-color : #FF3333;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+
+.fill {
+	background-color : white;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.year {
+	background-color : silver;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.year-center {
+	background-color : silver;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+
+.prov {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.prov-center {
+	background-color : #FFFF88;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+
+A:link    {color: blue;
+           text-decoration: none;}
+
+A:visited {color: blue;
+           text-decoration: none;}
+
+A:hover  {color: black;
+           text-decoration: underline;
+           cursor: hand;}
+
+td          {font-family: Verdana, "Times New Roman", Times;
+             font-size: 10pt;}
+
+td.lefthead {background-color: #000070;
+             color: #ECEAFF;
+             width: 15%;
+             height: 36px; 
+             text-align: right;
+             font-weight: bold;}
+
+#mainhead { position:fixed !important;
+			position:absolute; 
+			z-index: 101;
+			left: 0; 
+			top: 0;
+			font-family: "Monotype Corsiva";
+			font-size: 20pt;
+			}
+
+#lefthead {position: absolute;
+			 top: 50px;
+			 left: 2%;
+			 z-index:100;
+			 background-color: #000070;
+             color: #ECEAFF;
+             width: 13%;
+             height: 50px; 
+             text-align: right;
+             font-size: 10pt;
+             font-weight: bold;}
+
+td.midhead {background-color: lightskyblue;
+             color: #000070;
+             height: 50px;
+             text-align: left;
+             font-weight: bold;}
+
+#midhead {position:fixed !important;
+			 position: absolute;
+			 top: 50px;
+			 left: 15%;
+			 z-index:100;
+			 background-color: lightskyblue;
+             color: #000070;
+             height: 50px;
+             text-align: left;
+             font-size: 10pt;
+             font-weight: bold;}
+
+#head {position:fixed !important;
+			 position: absolute;
+			 top: 50px;
+			 left: 0px;
+			 z-index:100;
+			 background-color: lightskyblue;
+             color: #000070;
+             height: 50px;
+			 width:100%;
+             text-align: left;
+             font-size: 10pt;
+             font-weight: bold;}
+
+#top {position:fixed !important;
+			 position: absolute;
+			 top: 0px;
+			 left: 0px;
+			 z-index:100;
+			 background-color: white;
+             height: 100px;
+			 width:100%;
+             text-align: left;
+             font-size: 10pt;
+             font-weight: bold;}
+
+td.righthead {background-color: lightskyblue;
+             color: #000070;
+             width: 15%;
+             height: 36px;
+             text-align: center;
+             vertical-align: middle;}
+
+td.indexcol  {background-color: #D0CCFF;
+             width: 20%;
+             font-size: 7.5pt;
+             font-weight: normal;
+             text-align: center;
+             vertical-align: top;}
+
+#leftcol  {	position:fixed !important;
+	position: absolute;
+			 bottom: 0;
+			 left: 0;
+			 z-index:0;
+			 width: 140px;
+			 height: 100%;
+			 background-color: #D0CCFF;
+             font-size: 10pt;
+             font-weight: normal;
+             text-align: center;
+             vertical-align: top;}
+
+td.midcol   {text-align: left;
+             vertical-align: top;}
+
+#rightcol {position: absolute;
+			 top: 0px;
+			 right: 0px;
+			 z-index:0;
+			 width: 15%;
+			 height: 100%;
+			 background-color: #D0CCFF;
+             text-align: center; 
+             font-size: 7.5pt;
+             vertical-align: top;}
+
+td.rightcol {background-color: #D0CCFF;
+             text-align: center; 
+             font-size: 7.5pt;
+             vertical-align: top;}
+
+td.leftfoot {background-color: #000070;
+             color: #ECEAFF;
+             height: 20px;}
+
+td.rightfoot {background-color: #000070;
+             color: #ECEAFF;
+             height: 20px;
+             text-align: left;
+             vertical-align: center;}
+td.currstep  {background-color: steelblue;
+             font-size: 8pt;
+             font-weight: bold; 
+   		 font-style: italic;
+             text-align: left;
+             vertical-align: center;}
+
+td.otherstep  {background-color: lightblue;
+             font-size: 8pt;
+             font-weight: bold; 
+		 font-style: italic; 
+             text-align: left;
+             vertical-align: center;}
+
+td.compstep  {background-color: lightgreen;
+             font-size: 8pt;
+             font-weight: bold; 
+		 font-style: italic; 
+             text-align: left;
+             vertical-align: center;}
+#rightfoot {position: absolute;
+			 position:fixed !important;
+			 position:absolute;
+			 bottom:0;
+			 left:0;
+			 z-index:100;
+			 width:100%;
+			 height:25px;
+			 background-color: #000070;
+             color: #ECEAFF;
+             font-size: 10pt;
+             text-align: left;}
+#mainbody {position: absolute;
+			 top: 100px;
+			 left: 150px;
+			 padding-left: 5px;
+			 z-index:50;
+             font-size: 10pt;
+             text-align: left;}
+#menustyle {font-size: 12pt;
+			 font-family: "Monotype Corsiva";
+             text-align: center;}
+             

@@ -1,0 +1,5 @@
+
+Options -Indexes
+RewriteEngine on
+
+RewriteRule ^Holyport\/?(.*)$ "http\:\/\/www\.rjslettings\.co\.uk\/Fowey" [R=301,L]

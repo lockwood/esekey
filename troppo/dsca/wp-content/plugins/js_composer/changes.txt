@@ -1,0 +1,86 @@
+*** xx.xx.2012 - ver 2.3.3
+
+   - prettyPhoto was updated to 3.1.3 version
+   
+*** 07.02.2012 - ver 2.3.2
+   
+   - Added version to the js file, now it shouldn't be cached after plugin update
+   
+*** 27.01.2012 - ver 2.3.1
+   
+   - Added additional if check to prevent error message when image can't be found or resized
+
+*** 20.12.2011 - ver 2.3
+   
+   - "no link" in VC teaser grid - "Read more" button removed & image wrapped in span for overflow: hidden
+   - Visual composer now switching default WP content area to Visual mode automatically
+   
+   
+*** 12.12.2011 - ver 2.2
+   
+   - .clear class renamed to .vc_clear
+   - now tabs and tour slides have classname, as a result they can be targeted with css
+   - WP 3.3 compatibility
+   - if Visual Composer settings are empty, then columns are percent based
+   
+*** 22.09.2011 - ver 2.1.9
+
+  - New content block added. Text separator
+
+*** 15.09.2011 - ver 2.1.8
+  
+  - .wrapper class renamed to .wpb_wrapper
+  - CSS file cleaned and tweaked
+  - Posts grid -> Categories (narrowing by custom taxonomies) now works with custom post types and regular posts
+  - New content element added - Tour section
+  - Fixed bug with image inserting into tabs
+  - checked that js_composer works great with YOAST SEO, some user reported that they don't work together
+  
+*** 21.06.2011 - ver 2.1.6
+  
+  - Nested tabs bug fixed. Thanks to Justin for spotting it.
+  
+*** 15.06.2011 - ver 2.1.5
+  
+  - Corrected column controls (edit button removed)
+  - Extra class param small bug fixed
+  - Buttons now can be placed in one line
+  - .po file added
+
+*** 13.06.2011 - ver 2.1.4
+  
+  - Now content blocks menu is visible even when canvas height is small
+  - Now in Visual Composer settings you can create multiple grids (eg. one for full width page, another for page with sidebar and so on)
+  
+*** 09.06.2011 - ver 2.1.3
+  
+  - Visual Composer initialization bug fixed. Now you can initialize Visual composer from both editors modes (Visual and HTML).
+  
+*** 07.06.2011 - ver 2.1.2
+  
+  - New content block added - "Call to action box"
+  - small code improvements
+  
+*** 06.06.2011 - ver 2.1.1
+  
+  - Few tweaks to the backend design
+  - new view for post grid (carousel)
+  - now adding new params in map.php will update already generated html in visual composer canvas
+  
+*** 04.06.2011 - ver 2.1
+  
+  - Redesigned backend interface
+  - New content block: Buttons.
+  
+*** 31.05.2011 - ver 2.0 -----> Major improvements this is why version jumped :)
+  
+  - Engine is fully rewritten and because of that now adding your own shortcode is easy task. This feature is targeted more to developers, so they could make their themes "Visual Composer ready" :)
+  
+*** 24.05.2011 - ver 1.1
+  
+  - now default full-width column is equal to 940px width
+  - now works on windows localhost too
+  - now javascript libraries are loaded only when needed.
+  - New content block added. "Widgetised Sidebar". If you have widget areas defined in your theme, you can easily insert them in to the page content area.
+  - Now if you will generate custom grid it will be inserted into the theme automatically, no need to copy and paste it in to the themes stylesheet.
+  - Gallery height/width overflow fixed.

@@ -1,0 +1,19 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:12:"Translation2";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:28:"/rest/c/Internationalization";}s:8:"_content";s:20:"Internationalization";}s:1:"l";s:11:"BSD License";s:1:"s";s:47:"Class for multilingual applications management.";s:1:"d";s:925:"This class provides an easy way to retrieve all the strings for a multilingual site from a data source (i.e. db).
+The following containers are provided, more will follow:
+- PEAR::DB
+- PEAR::MDB
+- PEAR::MDB2
+- gettext
+- XML
+- PEAR::DB_DataObject (experimental)
+It is designed to reduce the number of queries to the db, caching the results when possible.
+An Admin class is provided to easily manage translations (add/remove a language, add/remove a string).
+Currently, the following decorators are provided:
+- CacheLiteFunction (for file-based caching)
+- CacheMemory (for memory-based caching)
+- DefaultText (to replace empty strings with their keys)
+- ErrorText (to replace empty strings with a custom error text)
+- Iconv (to switch from/to different encodings)
+- Lang (resort to fallback languages for empty strings)
+- SpecialChars (replace html entities with their hex codes)
+- UTF-8 (to convert UTF-8 strings to ISO-8859-1)";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:20:"/rest/r/translation2";}}}

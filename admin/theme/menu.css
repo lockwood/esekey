@@ -1,0 +1,59 @@
+/* +----------------------------------------------------------------------+ */
+/* | MENU  - Style Sheet for Admin Console Menu                           | */
+/* +----------------------------------------------------------------------+ */
+/* | Copyright (c) 2003-2004 Esekey Limited                               | */
+/* +----------------------------------------------------------------------+ */
+/* | Author:  Dave Lockwood <dave@esekey.com>                             | */
+/* +----------------------------------------------------------------------+ */
+/*                                                                          */
+/* $Id: menu.css, V1.00 2003/10/01                                          */
+/*                                                                          */
+
+body {
+	background-color : #CDCDCD;
+	background-position : bottom left;
+	background-repeat : no-repeat;
+}
+
+.blanklink {
+	color : #000000;
+	text-decoration : underline;
+}
+
+.menu-heading {
+	font-family : Tahoma, Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	font-weight : bold;
+	margin-left : 2px;
+}
+
+.menu-heading a {
+	color : #000000;
+	text-decoration : none;
+}
+
+.menu-link {
+	font-family : Tahoma, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	font-weight : normal;
+	margin-left : 14px;
+}
+
+.menu-link a {
+	color : #0000FF;
+}
+
+.menu-link a:visited {
+	color : #0000FF;
+	text-decoration : none;
+}
+
+.menu-link a:hover {
+	color : #0000FF;
+	text-decoration : underline;
+}
+
+.menu-link a:active {
+	color : #FF0000;
+	text-decoration : none;
+}

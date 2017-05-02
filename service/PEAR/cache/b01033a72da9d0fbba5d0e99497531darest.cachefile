@@ -1,0 +1,14 @@
+a:14:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.release";s:18:"xsi:schemaLocation";s:81:"http://pear.php.net/dtd/rest.release     http://pear.php.net/dtd/rest.release.xsd";}s:1:"p";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:21:"/rest/p/db_dataobject";}s:8:"_content";s:13:"DB_DataObject";}s:1:"c";s:12:"pear.php.net";s:1:"v";s:4:"0.11";s:2:"st";s:6:"stable";s:1:"l";s:11:"PHP License";s:1:"m";s:6:"alan_k";s:1:"s";s:51:"An SQL Builder, Object Interface to Database Tables";s:1:"d";s:357:"DataObject performs 2 tasks:
+  1. Builds SQL statements based on the objects vars and the builder methods.
+  2. acts as a datastore for a table row.
+  The core class is designed to be extended for each of your tables so that you put the 
+  data logic inside the data classes.
+  included is a Generator to make your configuration files and your base classes.";s:2:"da";s:19:"2003-01-21 03:12:00";s:1:"n";s:477:"- changed connecition and result caching to use global private variable, rather
+  than getStaticProperty
+- results objects are not stored on insert/update/delete (speed increase 
+  on large inserts can be as much as 10x faster)
+- bug fix - Checks that primary keys are integers (Anthony Juou)
+- typo on No data returned warning
+- unit tests in CVS
+- new configuration option for whether to use insert id's and sequences.
+- Generator no creates boolean bit (mitchell perilstein)";s:1:"f";s:5:"18891";s:1:"g";s:42:"http://pear.php.net/get/DB_DataObject-0.11";s:1:"x";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:16:"package.0.11.xml";}}}

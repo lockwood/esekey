@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="REFRESH" content="600">
+<title>EseSite&trade; Overview</title>
+<link href="theme/esekey.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" src="js/esekey.js" type="text/javascript"></script>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+
+document.onmousedown = NoRightClick;
+document.onkeydown   = KeyHandler;
+
+//-->
+</script>
+
+</head>
+<body bgcolor="#FFFFFF" text="#000000" link="#0000FF" vlink="#0000FF" alink="#FF0000" leftmargin="10" topmargin="15" rightmargin="10" bottommargin="15">
+<!-- Set Workarea -->
+<div class="workarea">
+	<!-- Black Table Border -->
+	<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td class="table-border">
+
+		<!-- Main Table -->
+		<table width="100%" border="0" cellspacing="1" cellpadding="3">
+			<tr>	
+			      <td class="infoheader-left">EseSite&trade; Overview</td>
+			</tr>
+            <tr>
+                  <td class="infoalt2-left">
+Your EseSite&trade; website is your marketing brochure on the Internet. In addition to showing availability
+and taking bookings, your website is there to present the key features of your accommodation and 
+services for viewing by the general public - which means internet surfers world-wide! 
+This overview describes how your website is built up using EseSite, and how it all fits together.
+<p>The structure of an EseSite website is a simple hierarchy that allows you to organise
+the information and link it together in a similar way to a printed brochure. 
+The EseSite hierarchy consists of three types of components: Sections, Pages and Elements. 
+Navigation around the site and the organisation of the page content is determined by the relationships
+that are defined between the individual components.</p>
+<p>The top level unit in an EseSite website is a Section. There must be at least one Section in the 
+site, as Pages are only viewable if they are included in an active Section. 
+Each Section has a Page list which may contain one or more Pages. The Page is 
+the component that defines an individually browsable web page. Each Page has an Element list which may
+contain one or more Elements. The Element is the bottom level component that 
+defines a chunk of information to be viewed on the Page, much like a paragraph in a brochure. 
+An Element may be just text, just an image, text
+with an image or, for the more ambitious, a block of hypertext markup language (HTML).  
+</p>
+<p>The components described above take care of the content and the navigation of the site; the look and feel and 
+the physical page layouts are managed by the style sheet and the page template, which are not currently accessible
+from the Administration Console. If you wish to make minor changes to these, this can be done at no cost - please call 07860 832741 or email 
+<a href="mailto:support@esekey.com">support@esekey.com</a> with details of the changes you require. For major 
+changes, such as a relaunch of the site with a new look, or a significant change in page layout, there will be a fee.
+</p>
+                  </td>
+            </tr>
+		</table>
+
+	</td></tr></table>		
+		
+
+	<!-- Bottom Buttons -->
+	<table width="100%" height="33" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td height="33" valign="bottom" nowrap></td>
+			<td height="33" align="right" valign="bottom" nowrap>
+		<input type="button" name="btnPrint" value="Print View" class="button" onClick="window.print();">				
+			</td>
+		</tr>
+	</table>
+		
+</div>
+
+</body>
+</html>

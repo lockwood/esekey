@@ -1,0 +1,44 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:6:"I18Nv2";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:28:"/rest/c/Internationalization";}s:8:"_content";s:20:"Internationalization";}s:1:"l";s:3:"PHP";s:1:"s";s:20:"Internationalization";s:1:"d";s:2449:"This package provides basic support to localize your application, 
+like locale based formatting of dates, numbers and currencies.
+
+Beside that it attempts to provide an OS independent way to setlocale() 
+and aims to provide language, country and currency names translated into 
+many languages.
+
+Short descriptions of provided classes:
+=======================================
+ - I18Nv2                    OS independent (Linux/Win32) setlocale(), other utils
+ - I18Nv2_Locale             locale based formatter
+ - I18Nv2_Negotiator         HTTP negiotiation of preferred language and charset
+ - I18Nv2_Country            multilingual list of country names
+ - I18Nv2_Language           multilingual list of language names
+ - I18Nv2_Currency           multilingual list of currency names
+ - I18Nv2_Encoding           list of common and not so common charsets and aliases
+ - I18Nv2_AreaCode           list of international area codes (phone)
+
+Decorators for lists like I18Nv2_Country and I18Nv2_Language:
+=============================================================
+ - HtmlEntities         transparently encode displayed names with HTML entities
+ - HtmlSpecialchars     transparently encode special XML chars in displayed names
+ - HtmlSelect           ready to use HTML select element facility
+ - Filter               exclude or include elements of a list
+
+Translations of language, country and currency names are 
+more or less completely available in the following languages:
+=============================================================
+ Afar, Afrikaans, Albanian, Amharic, Arabic, Armenian, Assamese, Azerbaijani, 
+ Basque, Belarusian, Bengali, Bulgarian, Catalan, Chinese, Cornish, Croatian, 
+ Czech, Danish, Divehi, Dutch, Dzongkha, English, Esperanto, Estonian, Faroese, 
+ Finnish, French, Gallegan, Georgian, German, Greek, Gujarati, Hebrew, Hindi, 
+ Hungarian, Icelandic, Indonesian, Inuktitut, Irish, Italian, Japanese, 
+ Kalaallisut, Kannada, Kazakh, Khmer, Kirghiz, Korean, Lao, Latvian, Lithuanian, 
+ Macedonian, Malay, Malayalam, Maltese, Manx, Marathi, Mongolian, 
+ Norwegian Bokmal, Norwegian Nynorsk, Oriya, Oromo, Pashto (Pushto), 
+ Persian, Polish, Portuguese, Punjabi, Romanian, Russian, Sanskrit, Serbian, 
+ Serbo-Croatian, Slovak, Slovenian, Somali, Spanish, Swahili, Swedish, Tamil, 
+ Tatar, Telugu, Thai, Tigrinya, Turkish, Ukrainian, Urdu, Uzbek, Vietnamese 
+ and Welsh
+
+FINAL NOTE:
+===========
+  Contributions are very welcome!";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:14:"/rest/r/i18nv2";}}}

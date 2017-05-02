@@ -1,0 +1,8 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:8:"XML_Wddx";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:11:"/rest/c/XML";}s:8:"_content";s:3:"XML";}s:1:"l";s:11:"PHP License";s:1:"s";s:39:"Wddx pretty serializer and deserializer";s:1:"d";s:493:"XML_Wddx does 2 things:
+a) a drop in replacement for the XML_Wddx extension (if it's not built in)
+b) produce an editable wddx file (with indenting etc.) and uses CDATA, rather than char tags
+This package contains 2 static method:
+XML_Wddx:serialize($value)
+XML_Wddx:deserialize($value)
+should be 90% compatible with wddx_deserialize(), and the deserializer will use wddx_deserialize if it is built in..
+No support for recordsets is available at present in the PHP version of the deserializer.";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:16:"/rest/r/xml_wddx";}}}

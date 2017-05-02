@@ -1,0 +1,7 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:12:"System_Mount";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:14:"/rest/c/System";}s:8:"_content";s:6:"System";}s:1:"l";s:16:"PHP License v3.0";s:1:"s";s:34:"Mount and unmount devices in fstab";s:1:"d";s:312:"System_Mount provides a simple interface to deal with mounting and unmounting devices listed in the system's fstab.
+
+Features:
+* Very compact, easy-to-read code, based on File_Fstab.
+* Examines mount options to determine if a device can be mounted or not.
+* Extremely easy to use.
+* Fully documented with PHPDoc.";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:20:"/rest/r/system_mount";}}}

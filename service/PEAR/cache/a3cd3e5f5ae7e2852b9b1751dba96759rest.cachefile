@@ -1,0 +1,9 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:14:"Math_Fibonacci";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:12:"/rest/c/Math";}s:8:"_content";s:4:"Math";}s:1:"l";s:3:"PHP";s:1:"s";s:53:"Package to calculate and manipulate Fibonacci numbers";s:1:"d";s:454:"The Fibonacci series is constructed using the formula:
+      F(n) = F(n - 1) + F (n - 2),
+By convention F(0) = 0, and F(1) = 1.
+An alternative formula that uses the Golden Ratio can also be used:
+      F(n) = (PHI^n - phi^n)/sqrt(5) [Lucas' formula],
+where PHI = (1 + sqrt(5))/2 is the Golden Ratio, and
+      phi = (1 - sqrt(5))/2 is its reciprocal
+Requires Math_Integer, and can be used with big integers if the GMP or
+the BCMATH libraries are present.";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:22:"/rest/r/math_fibonacci";}}}

@@ -1,0 +1,5 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:18:"HTML_Select_Common";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:12:"/rest/c/HTML";}s:8:"_content";s:4:"HTML";}s:1:"l";s:3:"BSD";s:1:"s";s:56:"Some small classes to handle common &lt;select&gt; lists";s:1:"d";s:88:"Provides &lt;select&gt; lists for:
+o Country
+o UK counties
+o US States
+o FR Departements";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:26:"/rest/r/html_select_common";}}}

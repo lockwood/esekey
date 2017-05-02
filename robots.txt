@@ -1,0 +1,4 @@
+# robots.txt for http://www.esekey.com/
+
+User-agent: *
+Disallow: /index.php?s=1&p=1

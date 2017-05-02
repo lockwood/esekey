@@ -1,0 +1,30 @@
+[13-May-2005 22:52:18] PHP Warning:  chdir(): SAFE MODE Restriction in effect.  The script whose uid is 32352 is not allowed to access /home owned by uid 0 in /home/esekey9/public_html/00000/index.php on line 17
+[13-May-2005 22:52:18] PHP Warning:  main(db_connect.php): failed to open stream: No such file or directory in /home/esekey9/public_html/00000/index.php on line 20
+[13-May-2005 22:52:18] PHP Warning:  main(db_connect.php): failed to open stream: No such file or directory in /home/esekey9/public_html/00000/index.php on line 20
+[13-May-2005 22:52:18] PHP Fatal error:  main(): Failed opening required 'db_connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/esekey9/public_html/00000/index.php on line 20
+[13-May-2005 23:02:00] PHP Warning:  chdir(): SAFE MODE Restriction in effect.  The script whose uid is 32352 is not allowed to access /home owned by uid 0 in /home/esekey9/public_html/00000/index.php on line 17
+[13-May-2005 23:02:00] PHP Warning:  main(db_connect.php): failed to open stream: No such file or directory in /home/esekey9/public_html/00000/index.php on line 20
+[13-May-2005 23:02:00] PHP Warning:  main(db_connect.php): failed to open stream: No such file or directory in /home/esekey9/public_html/00000/index.php on line 20
+[13-May-2005 23:02:00] PHP Fatal error:  main(): Failed opening required 'db_connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/esekey9/public_html/00000/index.php on line 20
+[13-May-2005 23:04:47] PHP Warning:  chdir(): SAFE MODE Restriction in effect.  The script whose uid is 32352 is not allowed to access /home owned by uid 0 in /home/esekey9/public_html/00000/index.php on line 17
+[13-May-2005 23:04:47] PHP Warning:  main(db_connect.php): failed to open stream: No such file or directory in /home/esekey9/public_html/00000/index.php on line 20
+[13-May-2005 23:04:47] PHP Warning:  main(db_connect.php): failed to open stream: No such file or directory in /home/esekey9/public_html/00000/index.php on line 20
+[13-May-2005 23:04:47] PHP Fatal error:  main(): Failed opening required 'db_connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/esekey9/public_html/00000/index.php on line 20
+[02-Mar-2006 19:26:09] PHP Fatal error:  Cannot instantiate non-existent class:  db_dataobject in /home/esekey9/public_html/00000/info.php on line 2
+[02-Mar-2006 19:30:50] PHP Warning:  main(): SAFE MODE Restriction in effect.  The script whose uid is 32317 is not allowed to access /usr/lib/php/DB.php owned by uid 0 in /home/esekey9/public_html/00000/info.php on line 2
+[02-Mar-2006 19:30:50] PHP Warning:  main(DB.php): failed to open stream: No such file or directory in /home/esekey9/public_html/00000/info.php on line 2
+[02-Mar-2006 19:30:50] PHP Fatal error:  main(): Failed opening required 'DB.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/esekey9/public_html/00000/info.php on line 2
+[02-Mar-2006 19:33:54] PHP Warning:  main(): SAFE MODE Restriction in effect.  The script whose uid is 32317 is not allowed to access /usr/lib/php/DB.php owned by uid 0 in /home/esekey9/public_html/00000/info.php on line 2
+[02-Mar-2006 19:33:54] PHP Warning:  main(DB.php): failed to open stream: No such file or directory in /home/esekey9/public_html/00000/info.php on line 2
+[02-Mar-2006 19:33:54] PHP Fatal error:  main(): Failed opening required 'DB.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/esekey9/public_html/00000/info.php on line 2
+[02-Mar-2006 20:47:49] PHP Warning:  main(): SAFE MODE Restriction in effect.  The script whose uid is 32317 is not allowed to access /usr/lib/php/DB.php owned by uid 0 in /home/esekey9/public_html/00000/info.php on line 2
+[02-Mar-2006 20:47:49] PHP Warning:  main(DB.php): failed to open stream: No such file or directory in /home/esekey9/public_html/00000/info.php on line 2
+[02-Mar-2006 20:47:49] PHP Fatal error:  main(): Failed opening required 'DB.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/esekey9/public_html/00000/info.php on line 2
+[03-Mar-2006 15:21:19] PHP Warning:  main(): SAFE MODE Restriction in effect.  The script whose uid is 32317 is not allowed to access /usr/lib/php/DB.php owned by uid 0 in /home/esekey9/public_html/00000/info.php on line 2
+[03-Mar-2006 15:21:19] PHP Warning:  main(DB.php): failed to open stream: No such file or directory in /home/esekey9/public_html/00000/info.php on line 2
+[03-Mar-2006 15:21:19] PHP Fatal error:  main(): Failed opening required 'DB.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/esekey9/public_html/00000/info.php on line 2
+[09-Mar-2006 19:41:06] PHP Warning:  main(): SAFE MODE Restriction in effect.  The script whose uid is 32317 is not allowed to access /usr/lib/php/DB.php owned by uid 0 in /home/esekey9/public_html/00000/info.php on line 2
+[09-Mar-2006 19:41:06] PHP Warning:  main(DB.php): failed to open stream: No such file or directory in /home/esekey9/public_html/00000/info.php on line 2
+[09-Mar-2006 19:41:06] PHP Fatal error:  main(): Failed opening required 'DB.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/esekey9/public_html/00000/info.php on line 2
+[21-Jul-2006 18:35:04] PHP Warning:  main(DB/DataObject.php): failed to open stream: No such file or directory in /home/esekey9/public_html/00000/info.php on line 3
+[21-Jul-2006 18:35:04] PHP Fatal error:  main(): Failed opening required 'DB/DataObject.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/esekey9/public_html/00000/info.php on line 3

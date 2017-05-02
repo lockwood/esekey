@@ -1,0 +1,5 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:7:"Net_FTP";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:18:"/rest/c/Networking";}s:8:"_content";s:10:"Networking";}s:1:"l";s:11:"PHP License";s:1:"s";s:77:"Net_FTP provides an OO interface to the PHP FTP functions plus some additions";s:1:"d";s:355:"Net_FTP allows you to communicate with FTP servers in a more comfortable way
+than the native FTP functions of PHP do. The class implements everything nativly
+supported by PHP and additionally features like recursive up- and downloading,
+dircreation and chmodding. It although implements an observer pattern to allow
+for example the view of a progress bar.";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:15:"/rest/r/net_ftp";}}}

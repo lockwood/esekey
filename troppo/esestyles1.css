@@ -1,0 +1,284 @@
+/* +----------------------------------------------------------------------+ */
+/* | ESE STYLES  - Style Sheet for EseSite Web Pages - Company 3          | */
+/* +----------------------------------------------------------------------+ */
+/* | Copyright (c) 2003-2004 Esekey Limited                               | */
+/* +----------------------------------------------------------------------+ */
+/* | Author:  Dave Lockwood <dave@esekey.com>                             | */
+/* +----------------------------------------------------------------------+ */
+/*                                                                          */
+/* $Id: esestyles.css, V1.01 2004/11/03                                     */
+/*                                                                          */
+
+body      {color: #000000;
+           font-family: Verdana, "Times New Roman", Times;
+           font-size: 9pt;}
+
+.maintext   {font-family: Verdana, "Times New Roman", Times;
+            font-size: 9pt;}
+
+.head   {	 border-bottom: solid black 1px;}
+
+.headtext   {font-family: "Verdana", fantasy, Rockwell;
+		 	 color: #FFFFAA;
+		 	 float:left;
+             text-align : left;
+             vertical-align: middle;
+             font-size: 16pt;
+             font-style: italic;
+		 font-weight: bold;}
+
+.input {
+	font-family : Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+}
+
+.alt1 {
+	background-color : #F0F0F0;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.alt1-center {
+	background-color : #F0F0F0;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+
+.alt1-right {
+	background-color : #F0F0F0;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : right;
+}
+
+.alt2 {
+	background-color : #FCFCFC;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.alt2-center {
+	background-color : #FCFCFC;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+
+.alt2-right {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : right;
+}
+
+.avail {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.map {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.maprd {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+      color: blue;
+      background-color: orange;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.E {
+	background-color : #C4BC96;
+      border : solid black 1px;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+
+.rsrv {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.C {
+	background-color : #FF3333;
+      border : solid black 1px;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+
+.fill {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.year {
+	background-color : #C4BC96;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.year-center {
+	background-color : #948A54;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+
+.prov {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.P {
+	background-color : #FFFF88;
+      border : dashed black 1px;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+
+A:link    {color: green;
+           text-decoration: none;}
+
+A:visited {color: green;
+           text-decoration: none;}
+
+A:hover  {color: black;
+           text-decoration: underline;
+           cursor: hand;}
+tr			{vertical-align: middle;}
+td          {font-family: Verdana, "Times New Roman", Times;
+             font-size: 10pt;
+			background-color: #EEECE1;
+             vertical-align: middle;}
+th          {font-family: Verdana, "Times New Roman", Times;
+             font-size: 10pt;
+             font-weight: bold;
+             background-color: #948A54;
+             vertical-align: middle;}
+
+td.midline {background-color: #BBFF88;
+             color: #000070;
+             height: 3px;
+             vertical-align: bottom;
+             text-align: left;
+             font-weight: bold;}
+
+td.midhead {background-color: green;
+             color: #ECEAFF;
+             height: 24px;
+             vertical-align: middle;
+             text-align: left;
+             font-weight: bold;}
+
+td.righthead {background-color: #BBFF88;
+             color: #000070;
+             width: 150px;
+             height: 24px;
+             vertical-align: bottom;
+             text-align: left;}
+
+.lefthead {background-color: #BBFF88;
+             color: black;
+             border: solid black 1px;
+             vertical-align: middle;
+             text-align: center;}
+
+.leftcol  {background-color: #948A54;
+			 color: white;
+             border: solid black 1px;
+             text-align: center;
+             vertical-align: middle;}
+
+.leftcol a, .leftcol a:visited {
+			color:white;}
+
+td.midcol   {text-align: left;
+             vertical-align: top;}
+
+td.rightcol {background-color: #FFFFAA;
+             text-align: center; 
+             font-size: 7.5pt;
+             vertical-align: top;}
+
+div.contact {background-color: #EEECE1;
+			 float:left;
+			 width: 150px;
+             color: black;
+			 text-align: center; 
+             font-size: 8pt;
+             vertical-align: middle;}
+
+td.leftfoot {background-color: #948A54;
+             color: white;
+             height: 20px;}
+
+td.rightfoot {background-color: #948A54;
+             color: white;
+             height: 20px;
+             text-align: right;
+             vertical-align: center;}
+td.currstep  {background-color: steelblue;
+             font-size: 8pt;
+             font-weight: bold; 
+   		 font-style: italic;
+             text-align: left;
+             vertical-align: center;}
+
+td.otherstep  {background-color: lightblue;
+             font-size: 8pt;
+             font-weight: bold; 
+		 font-style: italic; 
+             text-align: left;
+             vertical-align: center;}
+
+td.compstep  {background-color: lightgreen;
+             font-size: 8pt;
+             font-weight: bold; 
+		 font-style: italic; 
+             text-align: left;
+             vertical-align: center;}

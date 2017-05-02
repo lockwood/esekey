@@ -1,0 +1,22 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:16:"Gtk_MDB_Designer";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:16:"/rest/c/Database";}s:8:"_content";s:8:"Database";}s:1:"l";s:11:"PHP License";s:1:"s";s:31:"An Gtk Database schema designer";s:1:"d";s:973:"A graphical database schema designer, based loosely around the MDB schema,
+it features
+  - table boxes which are dragged around a window to layout your database
+  - add/delete tables
+  - add delete columns
+  - support for NotNull, Indexes, Sequences , Unique Indexes and  defaults
+  - works totally in non-connected mode (eg. no database or setting up required)
+  
+  - stores in MDB like xml file.
+  - saves to any supported database SQL create tables files.
+  - screenshots at http://devel.akbkhome.com/screenshots/Gtk_MDB/
+  
+  
+Future enhancements: 
+  - real MDB schema exports 
+  - relationships = with lines etc.
+Note: the primary aim is to generate SQL files, (so that I can get my work done)
+however it is eventually planned to support MDB schema's fully.. - just a matter of time..
+
+To use - just pear install and run gtkmdbdesigner
+
+** Note - this package is not activily being maintained. If you find it useful, and what to take over please contact the developer.";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:24:"/rest/r/gtk_mdb_designer";}}}

@@ -1,0 +1,17 @@
+[26-Jan-2006 23:40:27] PHP Warning:  MAX_FILE_SIZE of 300000 bytes exceeded - file [userfile=\Topserver\roz\My photos\Troppo\DSC03511.JPG] not saved in Unknown on line 0
+[26-Jan-2006 23:41:52] PHP Warning:  MAX_FILE_SIZE of 300000 bytes exceeded - file [userfile=\Topserver\roz\My photos\Troppo\DSC02473.JPG] not saved in Unknown on line 0
+[26-Jan-2006 23:47:17] PHP Warning:  MAX_FILE_SIZE of 300000 bytes exceeded - file [userfile=\Topserver\roz\My photos\Troppo\castle1.jpg] not saved in Unknown on line 0
+[26-Jan-2006 23:48:55] PHP Warning:  MAX_FILE_SIZE of 300000 bytes exceeded - file [userfile=\Topserver\roz\My photos\Family Life 2\Picture 048.jpg] not saved in Unknown on line 0
+[24-Feb-2006 16:48:21] PHP Warning:  MAX_FILE_SIZE of 300000 bytes exceeded - file [userfile=D:\Documents\My Pictures\2005-03 (Mar)\PICT0363.JPG] not saved in Unknown on line 0
+[17-May-2006 15:14:36] PHP Warning:  main(): Unable to access /home/securess/public_html//properties.php in /home/esekey9/public_html/admin/admin_new_booking.php on line 17
+[17-May-2006 15:14:36] PHP Warning:  main(/home/securess/public_html//properties.php): failed to open stream: Permission denied in /home/esekey9/public_html/admin/admin_new_booking.php on line 17
+[17-May-2006 15:14:36] PHP Warning:  main(): Unable to access /home/securess/public_html//properties.php in /home/esekey9/public_html/admin/admin_new_booking.php on line 17
+[17-May-2006 15:14:36] PHP Warning:  main(/home/securess/public_html//properties.php): failed to open stream: Permission denied in /home/esekey9/public_html/admin/admin_new_booking.php on line 17
+[17-May-2006 15:14:36] PHP Warning:  main(): Unable to access /home/securess/public_html//properties.php in /home/esekey9/public_html/admin/admin_new_booking.php on line 17
+[17-May-2006 15:14:36] PHP Warning:  main(/home/securess/public_html//properties.php): failed to open stream: Permission denied in /home/esekey9/public_html/admin/admin_new_booking.php on line 17
+[17-May-2006 15:14:36] PHP Warning:  main(): Failed opening '/home/securess/public_html//properties.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/esekey9/public_html/admin/admin_new_booking.php on line 17
+[21-Jul-2007 22:17:59] PHP Parse error:  syntax error, unexpected '}' in /home/esekey9/public_html/admin/menu.php on line 201
+[21-Jul-2007 22:18:34] PHP Parse error:  syntax error, unexpected '}' in /home/esekey9/public_html/admin/menu.php on line 201
+[21-Jul-2007 22:18:41] PHP Parse error:  syntax error, unexpected '}' in /home/esekey9/public_html/admin/menu.php on line 201
+[21-Jul-2007 22:18:48] PHP Parse error:  syntax error, unexpected '}' in /home/esekey9/public_html/admin/menu.php on line 201
+[25-Sep-2007 23:02:56] PHP Warning:  MAX_FILE_SIZE of 300000 bytes exceeded - file [userfile=C:\Documents and Settings\Roz\My Documents\My Pictures\26.08.07\26.08.07 011.jpg] not saved in Unknown on line 0

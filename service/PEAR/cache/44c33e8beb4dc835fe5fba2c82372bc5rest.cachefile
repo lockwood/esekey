@@ -1,0 +1,10 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:19:"Contact_AddressBook";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:20:"/rest/c/File+Formats";}s:8:"_content";s:12:"File Formats";}s:1:"l";s:11:"BSD License";s:1:"s";s:32:"Address book export-import class";s:1:"d";s:483:"Package provide export-import address book mechanism. Contact_AddressBook refers to needed structure, convert the various address book structure format into it, then you can easily to store it into file, database or another storage media.
+
+Current supported formats:
+1. Ms Windows Address Book (WAB) CSV
+2. Ms Outlook CSV
+3. Mozilla Mailer/Thunderbird/Netscape Mailer CSV
+4. KMail Address Book CSV
+5. Yahoo! Mail Address Book CSV
+6. Palm Pilot Address Book CSV
+7. Eudora Address Book";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:27:"/rest/r/contact_addressbook";}}}

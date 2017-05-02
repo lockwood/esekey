@@ -1,0 +1,298 @@
+/* +----------------------------------------------------------------------+ */
+/* | ESE STYLES  - Style Sheet for EseSite Web Pages - Company 3          | */
+/* +----------------------------------------------------------------------+ */
+/* | Copyright (c) 2003-2004 Esekey Limited                               | */
+/* +----------------------------------------------------------------------+ */
+/* | Author:  Dave Lockwood <dave@esekey.com>                             | */
+/* +----------------------------------------------------------------------+ */
+/*                                                                          */
+/* $Id: esestyles.css, V1.01 2004/11/03                                     */
+/*                                                                          */
+
+body      {color: #000000;
+           background-color: white;
+           font-family: Verdana, "Times New Roman", Times;
+           font-size: 9pt;}
+
+.maintext   {background-color: white;
+            font-family: Verdana, "Times New Roman", Times;
+            font-size: 9pt;}
+
+.headimg   {font-family: Georgia, fantasy, Rockwell;
+             background-color: #FFFFDD;
+		 	 color: brown;
+			 height: 80px;
+             text-align : left;
+			 vertical-align: bottom;
+             font-size: 24pt;
+		 	 font-weight: bold;}
+
+.headtext   {font-family: Georgia, fantasy, Rockwell;
+             background-color: #FFFFDD;
+		 	 color: brown;
+             text-align : left;
+			 vertical-align: bottom;
+             font-size: 24pt;
+		 	 font-weight: bold;}
+
+.headtext2  {font-family: Georgia, fantasy, Rockwell;
+             background-color: #FFFFDD;
+		 	 color: red;
+             text-align : left;
+			 vertical-align: bottom;
+             font-size: 24pt;
+			 font-style: italic;
+		 	 font-weight: bold;}
+
+.input {
+	font-family : Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+}
+
+.alt1 {
+	background-color : #F0F0F0;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.alt1-center {
+	background-color : #F0F0F0;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+
+.alt1-right {
+	background-color : #F0F0F0;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : right;
+}
+
+.alt2 {
+	background-color : #FCFCFC;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.alt2-center {
+	background-color : #FCFCFC;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+
+.alt2-right {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : right;
+}
+
+.avail {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.map {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.maprd {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+      color: blue;
+      background-color: orange;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.E {
+	background-color : #BBFF88;
+      border : solid #BBFF88 1px;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+
+.rsrv {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.C {
+	background-color : #FF3333;
+      border : solid black 1px;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+
+.fill {
+	background-color : white;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.year {
+	background-color : silver;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.year-center {
+	background-color : silver;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+
+.prov {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.P {
+	background-color : #FFFF88;
+      border : dashed black 1px;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+
+A:link    {color: green;
+           text-decoration: none;}
+
+A:visited {color: green;
+           text-decoration: none;}
+
+A:hover  {color: black;
+           text-decoration: underline;
+           cursor: hand;}
+
+td          {background-color: white;
+             font-family: Verdana, "Times New Roman", Times;
+             font-size: 10pt;}
+
+td.lefthead {background-color: #BBFF88;
+             color: black;
+             vertical-align: top;
+             text-align: right;
+             font-weight: bold;}
+
+td.currmenu {background-color: #BBFF88;
+             color: black;
+			 height: 24px;
+             vertical-align: middle;
+             text-align: right;
+             font-weight: bold;}
+
+td.midline {background-color: #BBFF88;
+             color: #000070;
+             height: 3px;
+             vertical-align: top;
+             text-align: left;
+             font-weight: bold;}
+
+td.midfill {background-color: #FFFFDD;
+             color: #000070;
+             height: 6px;
+             vertical-align: top;
+             text-align: left;
+             font-weight: bold;}
+
+td.midhead {background-color: #FFFFDD;
+             color: #ECEAFF;
+             height: 3px;
+             vertical-align: top;
+             text-align: left;
+             font-weight: bold;}
+
+td.leftcol  {background-color: #FFFFAA;
+             font-weight: bold;
+             text-align: right;
+             vertical-align: middle;}
+
+td.midcol   {background-color: white;
+             text-align: left;
+             vertical-align: top;}
+
+td.contact {background-color: #FFFFDD;
+             text-align: center; 
+             font-size: 7.5pt;
+             vertical-align: top;}
+
+td.leftfoot {background-color: green;
+             color: #ECEAFF;
+             height: 20px;}
+
+td.rightfoot {background-color: green;
+             color: #ECEAFF;
+             height: 20px;
+             text-align: left;
+             vertical-align: center;}
+td.currstep  {background-color: steelblue;
+             font-size: 8pt;
+             font-weight: bold; 
+   		 font-style: italic;
+             text-align: left;
+             vertical-align: center;}
+
+td.otherstep  {background-color: lightblue;
+             font-size: 8pt;
+             font-weight: bold; 
+		 font-style: italic; 
+             text-align: left;
+             vertical-align: center;}
+
+td.compstep  {background-color: lightgreen;
+             font-size: 8pt;
+             font-weight: bold; 
+		 font-style: italic; 
+             text-align: left;
+             vertical-align: center;}
+#footer {position: absolute;
+			 bottom: 0px;
+			 left: 0px;
+			 z-index:100;
+			 width: 100%;}
+             

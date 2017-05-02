@@ -1,0 +1,11 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:9:"XML_XPath";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:11:"/rest/c/XML";}s:8:"_content";s:3:"XML";}s:1:"l";s:11:"PHP License";s:1:"s";s:98:"The PEAR::XML_XPath class provided an XPath/DOM XML manipulation, maneuvering and query interface.";s:1:"d";s:948:"The PEAR::XML_XPath class provided an XPath/DOM XML manipulation, maneuvering and 
+query interface.
+The class allows for easy manipulation, maneuvering and querying of a domxml tree using
+both xpath queries and DOM walk functions.  It uses an internal pointer for all
+methods on which the action is performed.  Results from an dom/xpath query are returned
+as an XPath_Result object, which contains an internal array of DOM nodes and which extends 
+the common DOM class and hence contains all the DOM functions from the main object to run
+on each of the elements in the internal array.  This class tries to hold as close as possible       to the DOM Recommendation.  You MUST have the domxml extension to use this class.
+The XML_XPath class was inspired by a class maintained by Nigel Swinson called phpxpath.
+The phpxpath class does not rely on PHP xmldom functions and is therefore a sibling to
+this class: http://sourceforge.net/projects/phpxpath";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:17:"/rest/r/xml_xpath";}}}

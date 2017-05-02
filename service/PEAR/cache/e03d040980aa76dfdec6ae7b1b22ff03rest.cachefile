@@ -1,0 +1,5 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:9:"Crypt_RSA";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:18:"/rest/c/Encryption";}s:8:"_content";s:10:"Encryption";}s:1:"l";s:3:"PHP";s:1:"s";s:87:"Provides RSA-like key generation, encryption/decryption, signing and signature checking";s:1:"d";s:394:"This package allows you to use two-key strong cryptography like RSA with arbitrary key length.
+It uses one of the following extensions for math calculations:
+ - PECL big_int extension ( http://pecl.php.net/packages/big_int ) version greater than or equal to 1.0.3
+ - PHP GMP extension ( http://php.net/gmp )
+ - PHP BCMath extension ( http://php.net/manual/en/ref.bc.php ) for both PHP4 and PHP5";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:17:"/rest/r/crypt_rsa";}}}

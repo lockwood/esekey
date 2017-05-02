@@ -1,0 +1,4 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:8:"DB_ldap2";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:16:"/rest/c/Database";}s:8:"_content";s:8:"Database";}s:1:"l";s:4:"LGPL";s:1:"s";s:38:"DB drivers for LDAP v2 and v3 database";s:1:"d";s:224:"DB_ldap2 and DB_ldap3 classes extend DB_common to provide DB
+compliant access to LDAP servers with protocol version 2 and 3. The
+drivers provide common DB interface as much as possible and support
+prepare/execute statements.";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:16:"/rest/r/db_ldap2";}}}

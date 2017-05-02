@@ -1,0 +1,43 @@
+<?php
+// +----------------------------------------------------------------------+
+// | STATUS  - Esekey Company 4 Calculate and store commission            |
+// +----------------------------------------------------------------------+
+// | Copyright (c) 2003-2005 Esekey Limited                               |
+// +----------------------------------------------------------------------+
+// | Author:  Dave Lockwood <dave@esekey.com>                             |
+// +----------------------------------------------------------------------+
+//
+// $Id: 4/commission.php,v 1.01 2005/09/16
+//
+
+$commission_rate = 0.05;
+
+$bookingarray = $db_object->getAll("
+                    SELECT booking_reference
+                      FROM booking_audit".$_SESSION[$ss]['_test']."
+                     WHERE company_id = '".$_SESSION[$ss]['company_id']."'
+                       AND booking_sequence = 1
+                       AND last_modified_by = 'guest'
+                  ORDER BY booking_reference");
+
+foreach ($bookingarray as $bookingrow) {
+  $insert = "INSERT into commission".$_SESSION[$ss]['_test']." SELECT 
+                                         company_id,
+                                         CONCAT(YEAR(last_modified_on), 'Q', QUARTER(last_modified_on)),
+                                         booking_reference,
+                                         last_modified_on,
+                                         last_modified_by,
+                                         deposit_amount+balance_amount AS initial_amount,
+                                         (deposit_amount+balance_amount) * ".$commission_rate." AS commission_amount,
+                                         'Draft',
+                                         '',
+                                         '',
+                                         '".$_SESSION[$ss]['username']."',
+                                         now()
+                                    FROM booking_audit".$_SESSION[$ss]['_test']."
+                                   WHERE company_id = '".$_SESSION[$ss]['company_id']."'
+                                     AND booking_reference = '".$bookingrow['booking_reference']."'
+                                     AND booking_sequence = 1";
+  $add_member = $db_object->query($insert);
+}
+

@@ -1,0 +1,9 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:13:"HTML_TreeMenu";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:12:"/rest/c/HTML";}s:8:"_content";s:4:"HTML";}s:1:"l";s:3:"BSD";s:1:"s";s:37:"Provides an api to create a HTML tree";s:1:"d";s:531:"PHP Based api creates a tree structure using a couple of
+small PHP classes. This can then be converted to javascript
+using the printMenu() method. The tree is  dynamic in
+IE 4 or higher, NN6/Mozilla and Opera 7, and maintains state
+(the collapsed/expanded status of the branches) by using cookies.
+Other browsers display the tree fully expanded. Each node can
+have an optional link and icon. New API in 1.1 with many changes
+(see CVS for changelog) and new features, of which most came
+from Chip Chapin (http://www.chipchapin.com).";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:21:"/rest/r/html_treemenu";}}}

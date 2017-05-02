@@ -1,0 +1,5 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:13:"Image_Barcode";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:14:"/rest/c/Images";}s:8:"_content";s:6:"Images";}s:1:"l";s:11:"PHP License";s:1:"s";s:17:"Barcode rendering";s:1:"d";s:212:"With PEAR::Image_Barcode class you can create a barcode
+  representation of a given string.
+
+  This class uses GD function because of this the generated graphic can be any of
+  GD supported supported image types.";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:21:"/rest/r/image_barcode";}}}

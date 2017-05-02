@@ -1,0 +1,3 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:13:"XML_svg2image";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:11:"/rest/c/XML";}s:8:"_content";s:3:"XML";}s:1:"l";s:11:"PHP License";s:1:"s";s:40:"Converts a svg  file to a png/jpeg image";s:1:"d";s:187:"Converts a svg  file to a png/jpeg image with the help of apache-batik
+(java-program), needs therefore a php with ext/java compiled-in and
+the batik files from http://xml.apache.org/batik";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:21:"/rest/r/xml_svg2image";}}}

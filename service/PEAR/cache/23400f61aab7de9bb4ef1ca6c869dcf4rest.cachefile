@@ -1,0 +1,7 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:9:"Net_Ident";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:18:"/rest/c/Networking";}s:8:"_content";s:10:"Networking";}s:1:"l";s:3:"PHP";s:1:"s";s:38:"Identification Protocol implementation";s:1:"d";s:368:"The PEAR::Net_Ident implements Identification Protocol according
+to RFC 1413.
+The Identification Protocol (a.k.a., "ident", a.k.a., "the Ident
+Protocol") provides a means to determine the identity of a user
+of a particular TCP connection. Given a TCP port number pair, it
+returns a character string which identifies the owner of that
+connection on the server's system.";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:17:"/rest/r/net_ident";}}}

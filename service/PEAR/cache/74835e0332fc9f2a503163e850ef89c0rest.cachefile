@@ -1,0 +1,10 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:8:"XML_MXML";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:11:"/rest/c/XML";}s:8:"_content";s:3:"XML";}s:1:"l";s:11:"PHP License";s:1:"s";s:48:"Framework to build Macromedia Flex applications.";s:1:"d";s:677:"Flex enables enterprise-class Rich Internet Applications and is 
+  designed to address a certain class of problems around multistep processes, 
+  client-side validation, data manipulation, and data visualization. This
+  package allows you to build flex documents programatically.
+  MXML is the XML language for writing Macromedia Flex applications that you 
+  can use to lay out user-interface components. 
+  You can also use MXML to declaratively define nonvisual aspects of an application,
+  such as access to server-side data sources and data bindings between 
+  user-interface components and server-side data sources.
+  The API follows closely Stephan Schmidts XUL-Package.";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:16:"/rest/r/xml_mxml";}}}

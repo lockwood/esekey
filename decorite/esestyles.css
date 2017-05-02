@@ -1,0 +1,165 @@
+/* +----------------------------------------------------------------------+ */
+/* | ESE STYLES  - Style Sheet for base Esekey Web Pages                  | */
+/* +----------------------------------------------------------------------+ */
+/* | Copyright (c) 2003-2004 Esekey Limited                               | */
+/* +----------------------------------------------------------------------+ */
+/* | Author:  Dave Lockwood <dave@esekey.com>                             | */
+/* +----------------------------------------------------------------------+ */
+/*                                                                          */
+/* $Id: esestyles.css, V1.00 2003/10/01                                     */
+/*                                                                          */
+
+html, body {
+      height:100%;
+/*      background-image: url("background.jpg"); */
+	  background-color: white;
+      margin: 0px;
+      padding: 0px;
+      border: 0px;
+      font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+      text-align: left;
+}
+A:link    {color: blue;
+           text-decoration: none;}
+
+A:visited {color: blue;
+           text-decoration: none;}
+
+A:hover  {color: black;
+           text-decoration: underline;
+           cursor: hand;}
+h1 { font-size:24pt;
+      margin: 0px;
+      padding: 0px;
+      border: 0px;
+}
+
+h3 { font-size:14pt;
+      margin: 0px;
+      padding: 0px;
+      border: 0px;
+}
+
+h5 { font-size:12pt;
+      margin: 0px;
+      padding: 0px;
+      border: 0px;
+}
+
+#top { position:fixed !important;
+			 position: absolute;
+			z-index: 95;
+			left: 0; 
+			top: 0;
+			height: 135px;
+			background-color: white;
+			width: 100%;
+			font-family: Georgia, fantasy, Rockwell;
+			font-size: 32pt;
+			font-style: italic;
+			vertical-align: top;
+			}
+
+#mainhead { position:fixed !important;
+			 position: absolute;
+			 z-index: 101;
+			left: 70px; 
+			top: 0;
+			width: 450px;
+			padding-top: 15px;
+			font-family: Georgia, fantasy, Rockwell;
+			font-size: 32pt;
+			font-style: italic;
+			vertical-align: top;
+			}
+
+#righthead { position:fixed !important;
+			 position: absolute;
+			 z-index: 101;
+			left: 510px; 
+			top: 0;
+			padding-top: 15px;
+			font-family: Georgia, fantasy, Rockwell;
+			font-size: 18pt;
+			font-style: italic;
+			font-weight: bold;
+			vertical-align: top;
+			}
+
+#rightpichead { position:fixed !important;
+			 position: absolute;
+			 z-index: 101;
+			left: 700px; 
+			top: 0;
+			padding-top: 15px;
+			font-family: Georgia, fantasy, Rockwell;
+			font-size: 18pt;
+			font-style: italic;
+			font-weight: bold;
+			vertical-align: top;
+			}
+
+#lefthead { position:fixed !important;
+			 position: absolute;
+			top: 0;
+			left: 5px;
+			padding-top: 15px;
+			z-index:101;}
+
+#line1 {position:fixed !important;
+			 position: absolute;
+			 top: 107px;
+			 left: 0px;
+			 z-index:100;
+			 background-color: lightskyblue;
+			 color: #000070;
+             height: 3px;
+			 width:100%;
+             text-align: center;
+             font-size: 12pt;}
+
+#subhead {position:fixed !important;
+			 position: absolute;
+			 top: 110px;
+			 left: 0px;
+			 z-index:100;
+			 color: #000070;
+             height: 24px;
+			 width:100%;
+             text-align: center;
+             font-size: 12pt;}
+
+#line2 {position:fixed !important;
+			 position: absolute;
+			 top: 132px;
+			 left: 0px;
+			 z-index:100;
+			 background-color: lightskyblue;
+			 color: #000070;
+             height: 3px;
+			 width:100%;
+             text-align: center;
+             font-size: 12pt;}
+
+#rightfoot {position: absolute;
+			 position:fixed !important;
+			 position:absolute;
+			 bottom:0;
+			 left:0;
+			 z-index:100;
+			 width:100%;
+			 height:23px;
+			 background-color: skyblue;
+             color: white;
+             font-size: 10pt;
+             text-align: left;}
+#mainbody {position: absolute;
+			 top: 150px;
+			 left: 50px;
+			 padding-left: 5px;
+			 padding-right: 15px;
+			 padding-bottom: 25px;
+			 z-index:50;
+             font-size: 12pt;
+             text-align: left;}
+             

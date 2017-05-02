@@ -1,0 +1,273 @@
+/* +----------------------------------------------------------------------+ */
+/* | ESE STYLES  - Style Sheet for EseSite Web Pages - Company 7          | */
+/* +----------------------------------------------------------------------+ */
+/* | Copyright (c) 2003-2004 Esekey Limited                               | */
+/* +----------------------------------------------------------------------+ */
+/* | Author:  Dave Lockwood <dave@esekey.com>                             | */
+/* +----------------------------------------------------------------------+ */
+/*                                                                          */
+/* $Id: esestyles.css, V1.00 2005/07/18                                     */
+/*                                                                          */
+
+body      {color: #333366;
+           font-family: Verdana, "Times New Roman", Times;
+           font-size: 9pt;}
+
+.maintext   {font-family: Verdana, "Times New Roman", Times;
+            font-size: 9pt;}
+
+.headtext   {font-family: Georgia, fantasy, Rockwell;
+		 color: brown;
+             text-align : left;
+             font-size: 24pt;
+		 font-weight: bold;}
+
+.input {
+	font-family : Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+}
+
+.alt1 {
+	background-color : #F0F0F0;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.alt1-center {
+	background-color : #F0F0F0;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+
+.alt1-right {
+	background-color : #F0F0F0;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : right;
+}
+
+.alt2 {
+	background-color : #FCFCFC;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.alt2-center {
+	background-color : #FCFCFC;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+
+.alt2-right {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : right;
+}
+
+.avail {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.map {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.maprd {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+      color: blue;
+      background-color: orange;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.E {
+	background-color : #BBFF88;
+      border : solid #BBFF88 1px;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+
+.rsrv {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.C {
+	background-color : #FF3333;
+      border : solid black 1px;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+
+.fill {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.year {
+	background-color : #DDFFFF;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.year-center {
+	background-color : #DDFFFF;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+
+.prov {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+
+.P {
+	background-color : #FFFF88;
+      border : dashed black 1px;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+      font-weight : bold;
+	padding-left : 4px;
+	padding-right : 4px;
+	text-align : center;
+}
+
+A:link    {color: green;
+           text-decoration: none;}
+
+A:visited {color: green;
+           text-decoration: none;}
+
+A:hover  {color: black;
+           text-decoration: underline;
+           cursor: hand;}
+
+td          {font-family: Georgia, Verdana, Times;
+             font-size: 10pt;}
+
+td.lefthead {background-color: #DDFFFF;
+             color: black;
+             width: 14%;
+             height: 24px; 
+             vertical-align: bottom;
+             text-align: right;
+             font-weight: bold;}
+
+td.midline {background-color: brown;
+             color: #000070;
+             height: 2px;
+             vertical-align: bottom;
+             text-align: left;
+             font-weight: bold;}
+
+td.midhead {background-image: url(maidenh1.jpg);
+             color: #333366;
+             vertical-align: top;
+             text-align: left;}
+
+td.righthead {color: #000070;
+             width: 14%;
+             height: 3px;
+             vertical-align: bottom;
+             text-align: left;}
+
+td.leftcol  {background-image: url(maidenh1.jpg);
+             font-weight: bold;
+             text-align: right;
+             vertical-align: bottom;}
+
+td.midcol   {background-image: url(maidenh1.jpg);
+             text-align: left;
+             vertical-align: top;}
+
+td.rightcol {text-align: center; 
+             font-size: 7.5pt;
+             vertical-align: top;}
+
+td.contact { text-align: center; 
+             font-size: 8pt;
+             vertical-align: top;}
+
+td.leftfoot {color: #333366;
+             height: 20px;}
+
+td.rightfoot {color: #333366;
+             font-size: 8pt;
+             height: 20px;
+             text-align: left;
+             vertical-align: center;}
+td.currstep  {background-color: steelblue;
+             font-size: 8pt;
+             font-weight: bold; 
+   		 font-style: italic;
+             text-align: left;
+             vertical-align: center;}
+
+td.otherstep  {background-color: lightblue;
+             font-size: 8pt;
+             font-weight: bold; 
+		 font-style: italic; 
+             text-align: left;
+             vertical-align: center;}
+
+td.compstep  {background-color: lightgreen;
+             font-size: 8pt;
+             font-weight: bold; 
+		 font-style: italic; 
+             text-align: left;
+             vertical-align: center;}
+#footer {position: absolute;
+			 position:fixed !important;
+			 position:absolute;
+			 bottom:0;
+			 left:0;
+			 z-index:100;
+			 background-image: url(maidenh1.jpg);
+			 width:100%;
+			 height:25px;
+             text-align: left;}
+             

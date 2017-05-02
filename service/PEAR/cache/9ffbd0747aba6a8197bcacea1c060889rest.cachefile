@@ -1,0 +1,13 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:31:"PEAR_PackageFileManager_GUI_Gtk";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:12:"/rest/c/PEAR";}s:8:"_content";s:4:"PEAR";}s:1:"l";s:11:"PHP License";s:1:"s";s:57:"A PHP-GTK frontend for the PEAR_PackageFileManager class.";s:1:"d";s:662:"A PHP-GTK 1 frontend for the PEAR_PackageFileManager class. It makes it easier for developers to create and maintain PEAR package.xml files.
+
+Features:
+* Update existing package files or create new ones
+* Import values from an existing package file
+* Drag-n-Drop package directory into the application for easy loading
+* Set package level information (package name, description, etc.)
+* Set release level information (version, release notes, etc.)
+* Easily add maintainers
+* Browse package files as a tree and click to add a dependency
+* Add install time global and file replacements
+* Package file preview window
+* Package the package using the new package file";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:39:"/rest/r/pear_packagefilemanager_gui_gtk";}}}

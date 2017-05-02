@@ -1,0 +1,4 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:8:"Net_Dict";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:18:"/rest/c/Networking";}s:8:"_content";s:10:"Networking";}s:1:"l";s:3:"PHP";s:1:"s";s:30:"Interface to the DICT Protocol";s:1:"d";s:213:"This class provides a simple API to the DICT Protocol handling all the network related issues 
+and providing DICT responses in PHP datatypes 
+to make it easy for a developer to use DICT 
+servers in their programs.";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:16:"/rest/r/net_dict";}}}

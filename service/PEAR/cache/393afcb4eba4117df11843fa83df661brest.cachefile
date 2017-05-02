@@ -1,0 +1,4 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:22:"Services_ExchangeRates";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:20:"/rest/c/Web+Services";}s:8:"_content";s:12:"Web Services";}s:1:"l";s:11:"PHP License";s:1:"s";s:28:"Performs currency conversion";s:1:"d";s:315:"Extendable to work with any source that provides exchange rate data, this class downloads
+exchange rates and the name of each currency (US Dollar, Euro, Maltese Lira, etc.) and 
+converts between any two of the available currencies (the actual number of currencies 
+supported depends on the exchange rate feed used).";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:30:"/rest/r/services_exchangerates";}}}

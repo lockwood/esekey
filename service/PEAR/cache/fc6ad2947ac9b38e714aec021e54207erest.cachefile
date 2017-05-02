@@ -1,0 +1,8 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:15:"Net_SMPP_Client";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:18:"/rest/c/Networking";}s:8:"_content";s:10:"Networking";}s:1:"l";s:16:"PHP License v3.0";s:1:"s";s:16:"SMPP v3.4 client";s:1:"d";s:365:"Net_SMPP_Client is a package for communicating with SMPP servers, built with
+Net_SMPP. It can be used to send SMS messages, among other things.
+
+    Features:
+    - PDU stack keeps track of which PDUs have crossed the wire
+    - Keeps track of the connection state, and won't let you send PDUs if
+      the state is incorrect.
+    - Supports SMPP vendor extensions.";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:23:"/rest/r/net_smpp_client";}}}

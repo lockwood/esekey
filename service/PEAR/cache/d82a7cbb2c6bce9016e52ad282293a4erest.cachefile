@@ -1,0 +1,9 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:13:"Validate_ISPN";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:16:"/rest/c/Validate";}s:8:"_content";s:8:"Validate";}s:1:"l";s:7:"New BSD";s:1:"s";s:66:"Validation class for ISPN (International Standard Product Numbers)";s:1:"d";s:151:"Package containes ISPN (International Standard Product Numbers) validations such as:
+ * ISSN
+ * ISBN
+ * ISMN
+ * EAN8
+ * EAN13
+ * EAN14
+ * UCC12
+ * SSCC";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:21:"/rest/r/validate_ispn";}}}

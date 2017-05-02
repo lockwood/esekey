@@ -1,0 +1,11 @@
+a:14:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.release";s:18:"xsi:schemaLocation";s:81:"http://pear.php.net/dtd/rest.release     http://pear.php.net/dtd/rest.release.xsd";}s:1:"p";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:21:"/rest/p/db_dataobject";}s:8:"_content";s:13:"DB_DataObject";}s:1:"c";s:12:"pear.php.net";s:1:"v";s:3:"0.3";s:2:"st";s:4:"beta";s:1:"l";s:11:"PHP License";s:1:"m";s:6:"alan_k";s:1:"s";s:51:"An SQL Builder, Object Interface to Database Tables";s:1:"d";s:357:"DataObject performs 2 tasks:
+  1. Builds SQL statements based on the objects vars and the builder methods.
+  2. acts as a datastore for a table row.
+  The core class is designed to be extended for each of your tables so that you put the 
+  data logic inside the data classes.
+  included is a Generator to make your configuration files and your base classes.";s:2:"da";s:19:"2002-08-16 05:23:00";s:1:"n";s:245:"- Fixed Globals requirement in createTables,
+- Added Validation Utilities
+- Fixed SetFrom Object
+- Added database.links.ini support (by Tim White)
+- added production option to configuration
+- added DB_DataObject::staticAutoLoadTable($tablename);";s:1:"f";s:5:"14419";s:1:"g";s:41:"http://pear.php.net/get/DB_DataObject-0.3";s:1:"x";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:15:"package.0.3.xml";}}}

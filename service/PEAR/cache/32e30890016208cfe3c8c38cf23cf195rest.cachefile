@@ -1,0 +1,11 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:8:"Calendar";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:21:"/rest/c/Date+and+Time";}s:8:"_content";s:13:"Date and Time";}s:1:"l";s:3:"PHP";s:1:"s";s:72:"A package for building Calendar data structures (irrespective of output)";s:1:"d";s:644:"Calendar provides an API for building Calendar data structures. Using
+the simple iterator and it's "query" API, a user interface can easily be
+built on top of the calendar data structure, at the same time easily connecting it
+to some kind of underlying data store, where "event" information is
+being held.
+
+It provides different calculation "engines" the default being based on
+Unix timestamps (offering fastest performance) with an alternative using PEAR::Date
+which extends the calendar past the limitations of Unix timestamps. Other engines
+should be implementable for other types of calendar (e.g. a Chinese Calendar based
+on lunar cycles).";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:16:"/rest/r/calendar";}}}

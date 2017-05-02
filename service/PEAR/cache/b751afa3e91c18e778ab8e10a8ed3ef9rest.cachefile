@@ -1,0 +1,11 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:19:"HTML_Template_Sigma";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:12:"/rest/c/HTML";}s:8:"_content";s:4:"HTML";}s:1:"l";s:11:"PHP License";s:1:"s";s:79:"An implementation of Integrated Templates API with template 'compilation' added";s:1:"d";s:1141:"HTML_Template_Sigma implements Integrated Templates API designed by Ulf Wendel.
+
+Features:
+* Nested blocks. Nesting is controlled by the engine.
+* Ability to include files from within template: &lt;!-- INCLUDE --&gt;
+* Automatic removal of empty blocks and unknown variables (methods to manually tweak/override this are also available)
+* Methods for runtime addition and replacement of blocks in templates
+* Ability to insert simple function calls into templates: func_uppercase('Hello world!') and to define callback functions for these
+* 'Compiled' templates: the engine has to parse a template file using regular expressions to find all the blocks and variable placeholders. This is a very "expensive" operation and is an overkill to do on every page request: templates seldom change on production websites. Thus this feature: an internal representation of the template structure is saved into a file and this file gets loaded instead of the source one on subsequent requests (unless the source changes)
+* PHPUnit-based tests to define correct behaviour
+* Usage examples for most of the features are available, look in the docs/ directory";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:27:"/rest/r/html_template_sigma";}}}

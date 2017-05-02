@@ -1,0 +1,4 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:26:"Math_Numerical_RootFinding";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:12:"/rest/c/Math";}s:8:"_content";s:4:"Math";}s:1:"l";s:11:"BSD License";s:1:"s";s:48:"Numerical Methods Root-Finding functions package";s:1:"d";s:174:"Math_Numerical_RootFinding is the package
+provide various Numerical Methods Root-Finding
+functions implemented in PHP, e.g Bisection,
+Newton-Raphson, Fixed Point, Secant etc.";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:34:"/rest/r/math_numerical_rootfinding";}}}

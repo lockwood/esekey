@@ -1,0 +1,3 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:29:"HTML_QuickForm_advmultiselect";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:12:"/rest/c/HTML";}s:8:"_content";s:4:"HTML";}s:1:"l";s:15:"PHP License 3.0";s:1:"s";s:55:"Element for HTML_QuickForm that emulate a multi-select.";s:1:"d";s:157:"The HTML_QuickForm_advmultiselect package adds an element to the
+HTML_QuickForm package that is two select boxes next to each other
+emulating a multi-select.";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:37:"/rest/r/html_quickform_advmultiselect";}}}

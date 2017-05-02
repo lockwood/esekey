@@ -1,0 +1,3 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:9:"File_Find";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:19:"/rest/c/File+System";}s:8:"_content";s:11:"File System";}s:1:"l";s:3:"PHP";s:1:"s";s:49:"A Class the facilitates the search of filesystems";s:1:"d";s:208:"File_Find, created as a replacement for its Perl counterpart, also named 
+File_Find, is a directory searcher, which handles, globbing, recursive 
+directory searching, as well as a slew of other cool features.";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:17:"/rest/r/file_find";}}}

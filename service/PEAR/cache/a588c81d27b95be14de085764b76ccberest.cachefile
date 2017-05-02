@@ -1,0 +1,10 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:7:"Net_IRC";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:18:"/rest/c/Networking";}s:8:"_content";s:10:"Networking";}s:1:"l";s:11:"PHP License";s:1:"s";s:16:"IRC Client Class";s:1:"d";s:407:"IRC Client Class suitable for both client or bots applications.
+Features are:
+- Supprts Multiple Server connections
+- Non-blocking sockets
+- Runs on Standard PHP installation without any Extensions
+- Server messages handled by a callback system
+- Full logging capabilities
+- Full statistic collector
+
+Note: Net_IRC is no longer actively maintained. Please see Net_SmartIRC (http://pear.php.net/Net_SmartIRC)";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:15:"/rest/r/net_irc";}}}

@@ -1,0 +1,19 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:16:"XML_XSLT_Wrapper";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:11:"/rest/c/XML";}s:8:"_content";s:3:"XML";}s:1:"l";s:11:"PHP License";s:1:"s";s:71:"Provides a single interface to the different XSLT interface or commands";s:1:"d";s:838:"This package was written to provide a simpler, cross-library and cross commands interface to doing XSL transformations.
+It provides :
+
+* support for :
+  - DOM XSLT php extension
+  - XSLT php extension
+  - XSLT command line tool (xsltproc)
+  - MSXML using COM php extension
+  - XT command line (http://www.blnz.com/xt/xt-20020426a-src/butorindex.html)
+  - Sablotron command line (http://www.gingerall.com/charlie/ga/act/gadoc.act?pg=sablot#i__1940)
+  Planned interface :
+  - XT java interface
+  - xml.apache.org java and C interface (http://xml.apache.org)
+  - Instant Saxon (http://users.iclway.co.uk/mhkay/saxon/instant.html)
+* Batch mode
+ - XML: multiple transformations of a single XML file
+ - XSL: multiple transformations of multiple XML files using a single XSL
+
+See http://www.pearfr.org/xslt_wrapper/ for samples and documentation";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:24:"/rest/r/xml_xslt_wrapper";}}}

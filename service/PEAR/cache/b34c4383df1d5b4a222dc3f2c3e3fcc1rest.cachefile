@@ -1,0 +1,14 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:8:"HTML_CSS";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:12:"/rest/c/HTML";}s:8:"_content";s:4:"HTML";}s:1:"l";s:15:"PHP License 3.0";s:1:"s";s:52:"HTML_CSS is a class for generating CSS declarations.";s:1:"d";s:517:"HTML_CSS provides a simple interface for generating a stylesheet declaration. 
+It is completely standards compliant, and has some great features:
+* Simple OO interface to CSS definitions
+* Can parse existing CSS (string or file)
+* Output to
+    - Inline stylesheet declarations
+    - Document internal stylesheet declarations
+    - Standalone stylesheet declarations
+    - Array of definitions
+    - File
+
+In addition, it shares the following with HTML_Common based classes:
+* Indent style support
+* Line ending style";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:16:"/rest/r/html_css";}}}

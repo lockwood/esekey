@@ -1,0 +1,3 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:16:"System_WinDrives";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:14:"/rest/c/System";}s:8:"_content";s:6:"System";}s:1:"l";s:11:"PHP License";s:1:"s";s:36:"List files drives on windows systems";s:1:"d";s:108:"Provides functions to enumerate root directories
+  ("Drives") on Windows systems by using win32 api
+  calls.";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:24:"/rest/r/system_windrives";}}}

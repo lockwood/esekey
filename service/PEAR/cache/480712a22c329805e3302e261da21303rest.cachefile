@@ -1,0 +1,9 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:8:"Net_LDAP";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:18:"/rest/c/Networking";}s:8:"_content";s:10:"Networking";}s:1:"l";s:4:"LGPL";s:1:"s";s:56:"OO interface for searching and manipulating LDAP-entries";s:1:"d";s:381:"Net Ldap is a clone of Perls Net::LDAP object interface to 
+ldapservers. It does not contain all of Net::LDAPs features, 
+but has:
+* A simple OO-interface to connections, searches and entries.
+* Support for tls and ldap v3.
+* Simple modification, deletion and creation of ldapentries.
+* Support for schema handling.
+
+Net_LDAP layers itself on top of PHP's existing ldap extensions.";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:16:"/rest/r/net_ldap";}}}

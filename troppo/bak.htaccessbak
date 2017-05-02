@@ -1,0 +1,22 @@
+<ifModule mod_security.c>
+SecFilterEngine Off
+SecFilterScanPOST Off
+</ifModule>
+
+Options -Indexes
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^troppo.uk.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.troppo.uk.com$
+RewriteRule ^olympics\/?(.*)$ "http\:\/\/www\.troppo\.uk\.com\/dsca" [R=301,L]
+RewriteRule ^lakelets\/?(.*)$ "http\:\/\/www\.troppo\.uk\.com\/dsca" [R=301,L]
+Redirect 301 /index.html http://www.troppo.uk.com/dsca
+Redirect 301 /p14.html http://www.troppo.uk.com/dsca
+Redirect 301 /p15.html http://www.troppo.uk.com/dsca/accommodation/gardeners-bothy/
+Redirect 301 /p16.html http://www.troppo.uk.com/dsca/accommodation/wisteria/
+Redirect 301 /p17.html http://www.troppo.uk.com/dsca/accommodation/the-smithy/
+Redirect 301 /p18.html http://www.troppo.uk.com/dsca/corporate/
+Redirect 301 /p19.php http://www.troppo.uk.com/dsca/booking/availability/
+Redirect 301 /p20.php http://www.troppo.uk.com/dsca/booking/
+Redirect 301 /p21.html http://www.troppo.uk.com/dsca/local/
+Redirect 301 /p22.html http://www.troppo.uk.com/dsca/information/

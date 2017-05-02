@@ -1,0 +1,13 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:13:"CodeGen_MySQL";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:27:"/rest/c/Tools+and+Utilities";}s:8:"_content";s:19:"Tools and Utilities";}s:1:"l";s:3:"PHP";s:1:"s";s:47:"Base package for MySQL specific code generators";s:1:"d";s:499:"MySQL is introducing a new plugin infrastructure 
+with MySQL 5.1. In the long run this is going to 
+replace the current UDF stuff, too, but for now 
+both will exist side-by-side for a while.
+
+CodeGen_MySQL is a common base class for both
+the existing CodeGen_MySQL_UDF and a new
+CodeGen_MySQL_Plugin package, for now i'll just
+split the existing CodeGen_MySQL_UDF package
+into a general and a specific package. 
+
+No new code will be added at this stage, this is just
+a reorganisatonal thing for now.";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:21:"/rest/r/codegen_mysql";}}}

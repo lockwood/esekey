@@ -1,0 +1,23 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:14:"LiveUser_Admin";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:22:"/rest/c/Authentication";}s:8:"_content";s:14:"Authentication";}s:1:"l";s:4:"LGPL";s:1:"s";s:55:"User authentication and permission management framework";s:1:"d";s:590:"LiveUser_Admin is meant to be used with the LiveUser package.
+  It is composed of all the classes necessary to administrate
+  data used by LiveUser.
+
+  You'll be able to add/edit/delete/get things like:
+  * Rights
+  * Users
+  * Groups
+  * Areas
+  * Applications
+  * Subgroups
+  * ImpliedRights
+
+  And all other entities within LiveUser.
+
+  At the moment we support the following storage containers:
+  * DB
+  * MDB
+  * MDB2
+
+  But it takes no time to write up your own storage container,
+  so if you like to use native mysql functions straight, then it's possible
+  to do so in under a hour!";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:22:"/rest/r/liveuser_admin";}}}

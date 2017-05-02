@@ -1,0 +1,6 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:10:"File_DICOM";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:20:"/rest/c/File+Formats";}s:8:"_content";s:12:"File Formats";}s:1:"l";s:4:"LGPL";s:1:"s";s:45:"Package for reading and modifying DICOM files";s:1:"d";s:660:"File_DICOM allows reading and modifying of DICOM files.
+ DICOM stands for Digital Imaging and COmmunications in Medicine, and is a standard
+ for creating, storing and transfering digital images (X-rays, tomography) and related information used in medicine.
+ This package in particular does not support the exchange/transfer of DICOM data, nor any network related functionality.
+ More information on the DICOM standard can be found at: http://medical.nema.org/
+ Please be aware that any use of the information produced by this package for diagnosing purposes is strongly discouraged by the author. See http://www.gnu.org/licenses/lgpl.html for more information.";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:18:"/rest/r/file_dicom";}}}

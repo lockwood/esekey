@@ -1,0 +1,20 @@
+[06-May-2005 10:21:39] PHP Warning:  chdir(): SAFE MODE Restriction in effect.  The script whose uid is 32352 is not allowed to access /home owned by uid 0 in /home/esekey9/public_html/troppo/counter.php on line 18
+[06-May-2005 10:21:39] PHP Warning:  main(db_connect.php): failed to open stream: No such file or directory in /home/esekey9/public_html/troppo/counter.php on line 21
+[06-May-2005 10:21:39] PHP Warning:  main(db_connect.php): failed to open stream: No such file or directory in /home/esekey9/public_html/troppo/counter.php on line 21
+[06-May-2005 10:21:39] PHP Fatal error:  main(): Failed opening required 'db_connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/esekey9/public_html/troppo/counter.php on line 21
+[06-May-2005 10:21:40] PHP Warning:  chdir(): SAFE MODE Restriction in effect.  The script whose uid is 32352 is not allowed to access /home owned by uid 0 in /home/esekey9/public_html/troppo/index.php on line 18
+[06-May-2005 10:21:40] PHP Warning:  main(db_connect.php): failed to open stream: No such file or directory in /home/esekey9/public_html/troppo/index.php on line 21
+[06-May-2005 10:21:40] PHP Warning:  main(db_connect.php): failed to open stream: No such file or directory in /home/esekey9/public_html/troppo/index.php on line 21
+[06-May-2005 10:21:40] PHP Fatal error:  main(): Failed opening required 'db_connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/esekey9/public_html/troppo/index.php on line 21
+[04-Jul-2010 18:07:36] PHP Warning:  Invalid argument supplied for foreach() in /home/esekey9/public_html/troppo/page.php on line 350
+[04-Jul-2010 18:07:36] PHP Warning:  include(main.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/esekey9/public_html/troppo/page.php on line 366
+[04-Jul-2010 18:07:36] PHP Warning:  include(main.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/esekey9/public_html/troppo/page.php on line 366
+[04-Jul-2010 18:07:36] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'main.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/esekey9/public_html/troppo/page.php on line 366
+[18-Feb-2014 02:43:32] PHP Warning:  Invalid argument supplied for foreach() in /home/esekey9/public_html/troppo/page.php on line 355
+[18-Feb-2014 02:43:32] PHP Warning:  include(main.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/esekey9/public_html/troppo/page.php on line 371
+[18-Feb-2014 02:43:32] PHP Warning:  include(main.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/esekey9/public_html/troppo/page.php on line 371
+[18-Feb-2014 02:43:32] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'main.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/esekey9/public_html/troppo/page.php on line 371
+[18-Feb-2014 02:43:32] PHP Warning:  Invalid argument supplied for foreach() in /home/esekey9/public_html/troppo/page.php on line 355
+[18-Feb-2014 02:43:32] PHP Warning:  include(main.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/esekey9/public_html/troppo/page.php on line 371
+[18-Feb-2014 02:43:32] PHP Warning:  include(main.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/esekey9/public_html/troppo/page.php on line 371
+[18-Feb-2014 02:43:32] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'main.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/esekey9/public_html/troppo/page.php on line 371

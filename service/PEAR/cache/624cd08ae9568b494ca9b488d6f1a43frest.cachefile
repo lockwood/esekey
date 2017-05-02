@@ -1,0 +1,37 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:18:"VersionControl_SVN";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:23:"/rest/c/Version+Control";}s:8:"_content";s:15:"Version Control";}s:1:"l";s:11:"BSD License";s:1:"s";s:67:"Simple OO wrapper interface for the Subversion command-line client.";s:1:"d";s:1007:"What is VersionControl_SVN?
+
+VersionControl_SVN is a simple OO-style interface for Subversion,
+the free/open-source version control system.
+
+VersionControl_SVN can be used to manage trees of source code, 
+text files, image files -- just about any 
+collection of files.
+
+Some of VersionControl_SVN's features:
+
+* Full support of svn command-line client's 
+  subcommands.
+* Use of flexible error reporting provided by
+  PEAR_ErrorStack.
+* Multi-object factory.
+* Source fully documented with PHPDoc.
+* Stable, extensible interface.
+* Collection of helpful quickstart examples and
+  tutorials.
+
+What can be done with VersionControl_SVN?
+
+* Make your source code available to your 
+  remote dev team or project manager.
+
+* Build your own WYSIWYG web interface to a
+  Subversion repository.
+ 
+* Add true version control to a content management
+  system!
+  
+Note: Requires a Subversion installation.
+Subverison is available from
+http://subversion.tigris.org/
+
+VersionControl_SVN is tested against Subversion 1.0.4";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:26:"/rest/r/versioncontrol_svn";}}}

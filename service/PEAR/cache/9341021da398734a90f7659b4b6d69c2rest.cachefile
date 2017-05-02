@@ -1,0 +1,5 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:12:"HTML_Common2";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:12:"/rest/c/HTML";}s:8:"_content";s:4:"HTML";}s:1:"l";s:11:"PHP License";s:1:"s";s:72:"Abstract base class for HTML classes (PHP5 port of HTML_Common package).";s:1:"d";s:298:"The HTML_Common2 package provides methods for HTML code display and attributes handling.
+* Methods to set, remove, update html attributes.
+* Handles comments in HTML code.
+* Handles global document options (encoding, linebreak and indentation characters).
+* Handles indentation for nicer HTML code.";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:20:"/rest/r/html_common2";}}}

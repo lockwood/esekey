@@ -1,0 +1,3 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:11:"XML_sql2xml";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:11:"/rest/c/XML";}s:8:"_content";s:3:"XML";}s:1:"l";s:11:"PHP License";s:1:"s";s:29:"Returns XML from a SQL-Query.";s:1:"d";s:180:"This class takes a PEAR::DB-Result Object, a sql-query-string, an array and/or an xml-string/file and returns a xml-representation of it.
+
+It relies on the DOMXML extension of PHP.";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:19:"/rest/r/xml_sql2xml";}}}

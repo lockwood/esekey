@@ -1,0 +1,8 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:10:"Crypt_Xtea";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:18:"/rest/c/Encryption";}s:8:"_content";s:10:"Encryption";}s:1:"l";s:8:"PHP 2.02";s:1:"s";s:74:"A class that implements the Tiny Encryption Algorithm (TEA) (New Variant).";s:1:"d";s:507:"A class that implements the Tiny Encryption Algorithm (TEA) (New Variant).
+This class does not depend on mcrypt.
+Since the latest fix handles properly dealing with unsigned integers,
+which where solved by introducing new functions _rshift(), _add(), the
+speed of the encryption and decryption has radically dropped.
+Do not use for large amounts of data.
+Original code from http://vader.brad.ac.uk/tea/source.shtml#new_ansi
+Currently to be found at: http://www.simonshepherd.supanet.com/source.shtml#new_ansi";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:18:"/rest/r/crypt_xtea";}}}

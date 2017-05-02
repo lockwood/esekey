@@ -1,0 +1,9 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:12:"File_Fortune";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:20:"/rest/c/File+Formats";}s:8:"_content";s:12:"File Formats";}s:1:"l";s:3:"PHP";s:1:"s";s:104:"File_Fortune and File_Fortune_Writer provide an interface for reading from and writing to fortune files.";s:1:"d";s:622:"File_Fortune provides a PHP interface to reading fortune files. With it, you may
+retrieve a single fortune, a random fortune, or all fortunes in the file.
+
+File_Fortune_Writer provides an interface for manipulating the contents of a
+fortune file. It allows you to write a complete fortune file and the associated
+binary header file from an array of fortunes. You may also add fortunes, delete
+fortunes, or update individual fortunes in a fortune file. All write operations
+will produce a binary header file to allow for greater compatability with the
+fortune and fortune-mod programs (as well as other fortune interfaces).";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:20:"/rest/r/file_fortune";}}}

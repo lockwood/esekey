@@ -1,0 +1,2 @@
+<!--#echo var="HTTP_USER_AGENT" -->
+<!--#echo var="REDIRECT_STATUS" -->

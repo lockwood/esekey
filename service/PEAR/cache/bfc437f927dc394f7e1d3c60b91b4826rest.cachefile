@@ -1,0 +1,4 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:7:"XML_DTD";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:11:"/rest/c/XML";}s:8:"_content";s:3:"XML";}s:1:"l";s:11:"PHP License";s:1:"s";s:52:"Parsing of DTD files and DTD validation of XML files";s:1:"d";s:315:"Parsing of DTD files and DTD validation of XML files.
+The XML validation is done with the php sax parser, the xml extension, it does not use the domxml extension.
+
+Currently supports most of the current XML spec, including entities, elements and attributes. Some uncommon parts of the spec may still be unsupported.";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:15:"/rest/r/xml_dtd";}}}

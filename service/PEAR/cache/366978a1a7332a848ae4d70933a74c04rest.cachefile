@@ -1,0 +1,6 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:10:"HTML_Crypt";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:12:"/rest/c/HTML";}s:8:"_content";s:4:"HTML";}s:1:"l";s:11:"PHP License";s:1:"s";s:72:"Encrypts text which is later decoded using javascript on the client side";s:1:"d";s:293:"The PEAR::HTML_Crypt provides methods to encrypt text, which 
+   can be later be decrypted using JavaScript on the client side
+ 
+   This is very useful to prevent spam robots collecting email
+   addresses from your site, included is a method to add mailto 
+   links to the text being generated";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:18:"/rest/r/html_crypt";}}}

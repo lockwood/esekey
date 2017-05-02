@@ -1,0 +1,14 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:12:"DB_NestedSet";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:16:"/rest/c/Database";}s:8:"_content";s:8:"Database";}s:1:"l";s:11:"PHP License";s:1:"s";s:34:"API to build and query nested sets";s:1:"d";s:562:"DB_NestedSet let's you create trees with infinite depth
+inside a relational database.
+The package provides a way to
+o create/update/delete nodes
+o query nodes, trees and subtrees
+o copy (clone) nodes, trees and subtrees
+o move nodes, trees and subtrees
+o Works with PEAR::DB, PEAR::MDB, PEAR::MDB2
+o output the tree with
+  - PEAR::HTML_TreeMenu
+  - TigraMenu (http://www.softcomplex.com/products/tigra_menu/)
+  - CoolMenus (http://www.dhtmlcentral.com/projects/coolmenus/)
+  - PEAR::Image_GraphViz (http://pear.php.net/package/Image_GraphViz)
+  - PEAR::HTML_Menu";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:20:"/rest/r/db_nestedset";}}}

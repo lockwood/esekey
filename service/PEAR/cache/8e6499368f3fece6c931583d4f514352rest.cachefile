@@ -1,0 +1,11 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:15:"Services_Amazon";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:20:"/rest/c/Web+Services";}s:8:"_content";s:12:"Web Services";}s:1:"l";s:3:"BSD";s:1:"s";s:61:"Provides access to Amazon's retail and associate web services";s:1:"d";s:493:"Services_AmazonECS4:
+* A class using Amazon E-Commerce Service 4.0
+* Lookup and Search for products, Wishlists, Marketplace, customers, similar item and so on
+* Provide associate links
+* Remote cart support
+* Multiple locale support: US, UK, DE, JP, FR and CA
+* Caching support
+
+Services_Amazon:
+* A class using Amazon E-Commerce Service 3.0 (Amazon Web Services 3.0)
+* Search and provide associate links for specific ISBN numbers, authors, artist, directors, and publishers among other things";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:23:"/rest/r/services_amazon";}}}

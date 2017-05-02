@@ -1,0 +1,7 @@
+a:8:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:8:"Validate";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:16:"/rest/c/Validate";}s:8:"_content";s:8:"Validate";}s:1:"l";s:3:"PHP";s:1:"s";s:16:"Validation class";s:1:"d";s:297:"Package to validate various datas. It includes :
+ - numbers (min/max, decimal or not)
+ - email (syntax, domain check)
+ - string (predifined type alpha upper and/or lowercase, numeric,...)
+ - date (min, max)
+ - uri (RFC2396)
+ - possibility valid multiple data with a single method call (::multiple)";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:16:"/rest/r/validate";}}}
