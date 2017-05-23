@@ -36,7 +36,7 @@ Enter/amend your details and use the <i>Check Availability and Price</i> button 
     <?php
     } else {
     	?>
-<b><span id="bk_label" style="width:220px; display:inline-block;"><?=$form_title?></span></b><input type="button" id="bb_or_sc" value="<?=$bb_or_sc_val?>" class="button-cust" style="vertical-align:middle;" onClick='Swap_BB_SC();'/><input type="hidden" name="book_bb" id="book_bb" value="<?=$book_bb?>" /><input type="hidden" name="sid" value="<?=$sid?>" />
+<b><span id="bk_label" style="width:220px; display:inline-block;"><?=$form_title?></span></b><input type="hidden" name="book_bb" id="book_bb" value="<?=$book_bb?>" /><input type="hidden" name="sid" value="<?=$sid?>" />
     <?php
     } ?>
   <table align="left" border="0" cellspacing="2" cellpadding="3">

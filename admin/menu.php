@@ -117,10 +117,10 @@ if ($_SESSION[$ss]['company_id'] == '00004')
 $_SESSION[$ss]['menu'][$menuHeading][1][$menuItem] = 'list.php?view=booking_view&srch1=t1.departure_date&op1=GTEQ&val1=now()&';		
 $menuItem++;
 if ($_SESSION[$ss]['company_id'] == '00004')
-{ 
+{ /* B&B removed 23/05/2017	
 	$_SESSION[$ss]['menu'][$menuHeading][0][$menuItem] = 'Current B & B Bookings';
 	$_SESSION[$ss]['menu'][$menuHeading][1][$menuItem] = 'list.php?view=booking_view&srch1=t1.departure_date&op1=GTEQ&val1=now()&bb=1&';
-	$menuItem++;
+	$menuItem++;// */
 }
 $_SESSION[$ss]['menu'][$menuHeading][0][$menuItem] = 'Past Booking List';
 $_SESSION[$ss]['menu'][$menuHeading][1][$menuItem] = 'list.php?view=booking_view&srch1=t1.departure_date&op1=LT&val1=now()&';
@@ -157,10 +157,10 @@ if ($_SESSION[$ss]['company_id'] == '00003')
 if ($_SESSION[$ss]['company_id'] == '00004')
 { 
 	$_SESSION[$ss]['menu'][$menuHeading][0][$menuItem] = 'Promotions';
-	$_SESSION[$ss]['menu'][$menuHeading][1][$menuItem] = 'list.php?view=promotions&';
+	$_SESSION[$ss]['menu'][$menuHeading][1][$menuItem] = 'list.php?view=promotions&';/* B&B removed 23/05/2017
 	$menuItem++;
 	$_SESSION[$ss]['menu'][$menuHeading][0][$menuItem] = 'Manage B&B Options';
-	$_SESSION[$ss]['menu'][$menuHeading][1][$menuItem] = 'list.php?view=bbmanage&';
+	$_SESSION[$ss]['menu'][$menuHeading][1][$menuItem] = 'list.php?view=bbmanage&';// */
 }	
 if ($_SESSION[$ss]['permissions'] != 'ViewOnly') {
 

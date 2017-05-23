@@ -339,12 +339,12 @@ if (isset($selected_id) && $selected_id > 0) {
 
 include($DOCUMENT_ROOT.'/'.$_SESSION[$ss]['company_code'].'/date_form.php');
 
-$b_and_b_flag = $db_object->getOne("SELECT b_and_b_flag FROM company WHERE company_id = '".$_SESSION[$ss]['company_id']."'"); 
+$b_and_b_flag = $db_object->getOne("SELECT b_and_b_flag FROM company WHERE company_id = '".$_SESSION[$ss]['company_id']."'"); /* No more B&B !!!! 23/05/2017
 if ($ss == 'Admin')
 {
 	include($DOCUMENT_ROOT.'/'.$_SESSION[$ss]['company_code'].'/view_bb.php');
 	echo '<p>&nbsp;<b>Self&nbsp;Catering</b></p>';
-}
+}// */
 include($DOCUMENT_ROOT.'/'.$_SESSION[$ss]['company_code'].'/view_daily.php');
 //include 'view_daily.php';
 ?>
