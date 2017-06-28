@@ -24,7 +24,7 @@ $legoland_price = 40;
 $extra_guests_rate = 17;
 $w_extra_guests_rate = 15;
 $rowing_rate = 20;
-
+$supp = 0;
 // new winter tariff for 2011-12 (updated for 2015-16)// winter rates no longer applied from 28/04/2017
 $winter_nights = 0;/*
 if ($end_date > '2015-10-31' && $start_date < '2016-03-01') {
@@ -46,21 +46,21 @@ if ($winter_nights > 0) { // winter tariff
 } else {
 	$tariff = '1'; // Assume Standard tariff and update if different
 }
-if (($n == 1)&& (!isset($o[2]))) { // One night stays for non-rowing groups have a supplement per apartment
+if (($n == 1)&& (!isset($o[2]))) { // One night stays for non-rowing groups have a supplement per apartment// supplement changed to £60 per booking rather than £15 per apartment - 16/06/2017
     if ($tariff == '6') {
     	//winter: £10 supplement
-		$supp = 10;
+		$supp = 60;
     } else {
     	//standard: £15 supplement 
-		$supp = 15;
-    }
+		$supp = 60;
+    }	/*
 	$wgb_rate += $supp;
     $smithy_rate[1] += $supp;
     $smithy_rate[2] += $supp;        $ic_rate += $supp;
     $w_wgb_rate += $supp;
     $w_smithy_rate[1] += $supp;
     $w_smithy_rate[2] += $supp;
-    $w_ic_rate += $supp;    $additional_info .= 'Single night supplement of £'.$supp.' applies.<br>';
+    $w_ic_rate += $supp;	// */    $additional_info .= 'Single night supplement of £'.$supp.' applies.<br>';
 }
 $w_cost_per_night = 0;
 $discount = '0';
@@ -134,8 +134,8 @@ if (isset($o[2])) { // rowing special offer - $rowing_rate
         }
     }
 }if (isset($r[4])) { // Flo's Cabin	$cost_per_night = $cost_per_night + $fc_rate;	$w_cost_per_night = $w_cost_per_night + $w_fc_rate;	$additional_info .= 'Includes '.$fc.' additional guests in Flo&#039;s Cabin.<br>';}if (isset($o[3])) {	$cost_per_night = $cost_per_night + $dog_rate;	$w_cost_per_night = $w_cost_per_night + $dog_rate;		$additional_info .= 'Includes £'.$dog_rate.' per night pet supplement.<br>';}
-$price = 0;
-$price = $price + ($cost_per_night * $non_winter_nights) + ($w_cost_per_night * $winter_nights);
+$price = 0;// supplement changed to £60 per booking rather than £15 per apartment - 16/06/2017
+$price = $price + ($cost_per_night * $non_winter_nights) + ($w_cost_per_night * $winter_nights) + $supp;
 if ($lp > 0) {
 	$price = $price + ($lp * $legoland_price);
 }if ((isset($o[4])) && ($n == 2)) { // Hen/Stag Party special offer applies
