@@ -41,7 +41,7 @@ if ($_SESSION[$ss]['permissions'] == 'ViewOnly')
                       }
                       if ($_SESSION[$ss]['permissions'] == 'ViewOnly') { ?>
                       <td class="header-center">Notes</td><?php
-					  } else { ?>
+					  } else { 					  	if ($_SESSION[$ss]['company_id'] == 3) { 					  		$colcount++;					  		?>                      <td class="header-center">Notes</td><?php					  							  	}					  						  	?>
                       <td class="header-center" nowrap>Action</td><?php
 					  } ?>
 			</tr>
@@ -80,8 +80,8 @@ if ($_SESSION[$ss]['permissions'] == 'ViewOnly')
                             	<?php
                             }
                         } 
-                        if ($_SESSION[$ss]['permissions'] != 'ViewOnly') { ?>
-                        <td class="<?=$class?>-center" nowrap>
+                        if ($_SESSION[$ss]['permissions'] != 'ViewOnly') { 
+					  		if ($_SESSION[$ss]['company_id'] == 3) { ?>						<td class="<?=$class?>-left"><?=$viewrow['booking_notes']?></td><?php					  							  	} ?>					  	                        <td class="<?=$class?>-center" nowrap>
                         <a href="#" onClick="top.Top.GoToURL('<?=$level?>', '<?=$action?> Booking [Ref=<?=$value?>]', 'edit.php?view=<?=$view_name?>&key=<?=$key?>&value=<?=$value?>&');"><?=$action?></a>
                         </td><?php
 						} else { ?>
