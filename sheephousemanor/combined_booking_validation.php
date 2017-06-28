@@ -254,24 +254,6 @@ if (($d > 0 && $d < 32) && ($m > 0 && $m < 13) && ($y >= $sat_year && $y <= ($sa
 } else { // shouldn't get this as date comes from dropdown selections
     $error1.='Please enter a valid date from the list provided.<br>';
 }
-$end_date = $db_object->getOne("SELECT date_add('".$start_date."', interval '".$n."' day)");
-$olympic_nights = 0;
-if (isset($_GET['n'])) {
-	// echo 'end_date='.$end_date.'; start_date='.$start_date;
-	if ($end_date > '2017-06-18' && $start_date < '2017-07-03') {
-		// Olympic rates and restrictions apply
-		$day = $start_date;
-		for ($i=0;$i<$n;$i++) {
-			if ($day > '2017-06-18' && $day < '2017-07-03') {
-				$olympic_nights++;
-			}
-			$day = date('Y-m-d', strtotime($day.' + 1 day'));
-		}
-	}
-}
-//if ($olympic_nights > 0 && $n < 7) {
-//	$error1 = 'Olympics booking restrictions apply (26 Jul - 12 Aug 2012).<br>Any Olympics booking must include a minimum of 7 nights.<br>';
-//}
 // validate form fields
 if (!isset($error1)) { // if date details are valid, validate rest of form
 	if ($book_bb == 'yes')
