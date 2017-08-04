@@ -14,6 +14,7 @@ $custom_popup = 1; // set flag to 1 - this custom page formatter is used for Com
 // Differences from generic popup.php: 
 // Based on oldplace page.php without lefthand menu column
 ?>
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Language" content="en-gb">
