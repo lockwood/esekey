@@ -22,7 +22,7 @@ if (DB::isError($update_expired_bookings)) {
 
 //read from table where date > start date and date < start date + 92 days (~3 months) 
 //if records not found, insert new ones up to end date for selected period using mysql date_add (interval) function. 
-for ($x = 0; $x <= 6; $x++) {$selected_id = $resourcearray[$x]['property_id'];$select_property = " AND t1.resource_id = '".$selected_id."' ";
+for ($x = 0; $x < count($resourcearray); $x++) {$selected_id = $resourcearray[$x]['property_id'];$select_property = " AND t1.resource_id = '".$selected_id."' ";
 $datearray = $db_object->getAll("SELECT t1.resource_id,
                                         t1.day_of_week, 
                                         DATE_FORMAT(t1.booking_date, '%d')AS booking_day,
