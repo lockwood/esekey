@@ -98,7 +98,7 @@ The balance will be taken automatically using the card details you supplied when
 This will happen approximately 4 weeks before your arrival is due, and no further action is required from you. In the meantime, if you have any queries, please do not hesitate to contact me.
 
 Kind Regards 
-Annie White 
+Roz SmithDSCA Manager		
 
 Dorney Self Catering Apartments 
 (Troppo Property Partnership) 

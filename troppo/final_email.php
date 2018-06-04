@@ -118,7 +118,7 @@ $email_tail_text = '
 Please download the <A href="http://www.troppo.uk.com/latest_directions.pdf">Directions and Access Instructions</A> and make sure that all members of your party that need it have a copy. <br/><br/>
 ';$email_tail_text .= "Should you require any <span style='font-family:Arial;color:green;font-weight:bold'>specific sleeping or bedding arrangements</span>, i.e. all separate beds/rooms, travel cot etc, please ensure that we are informed before your stay.<br/>";if (strpos($viewrow['booking_notes'],'pet supplement')) {	$email_tail_text .= "<br/>If you bring your dog(s)..............<br/>We ask dog owners not to allow their  pets to create a nuisance to other guests.<br/>If the dog is ever left alone in the apartment, please ensure that the dog is not regularly or continuously barking.<br/>We welcome dogs, as we have three small dogs living at the premises and we recommend guests tointroduce their dogs carefully to our dogs, so that they can get to know each other and avoidunnecessary barking or fighting. Please read our booking conditions regarding nuisance by dogs.<br/>Our dogs are relatively sociable, but dogs are dogs!<br/><br/>";}$email_tail_text .= "
 Kind Regards 
-Annie White 
+Roz SmithDSCA Manager
 
 Dorney Self Catering Apartments (Troppo Property Partnership) The Old Place Lock Path Dorney Windsor Berkshire SL4 6QQ Tel: 01753 827037 Email: enquiries@troppo.uk.com enquiries@dorneyselfcatering.co.uk Web: http://www.troppo.uk.com http://www.dorneyselfcatering.co.uk 
 ";

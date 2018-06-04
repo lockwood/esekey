@@ -54,7 +54,7 @@ if (isset($o[2])) { // mention rowing tariff in special requirements
 }
 if ($sr != htmlentities('e.g. single occupancy of double bed; cot or other items required for baby; pets to be brought, etc.', ENT_QUOTES)) { // special requirements
     $booking_notes .= $sr;
-}if (isset($r[4])) { // add Flo's cabin guests to number of guests.    $g = $g + $fc;}
+}/* should have been removed when the Flo's Cabin pricing model was changed!!if (isset($r[4])) { // add Flo's cabin guests to number of guests.    $g = $g + $fc;}// */
 $insert = "INSERT INTO booking 
            VALUES ('".$_SESSION[$ss]['company_id']."',
                    0, 

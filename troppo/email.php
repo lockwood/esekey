@@ -123,7 +123,7 @@ foreach($textarray as $textrow) {
 $email_tail_text .= '
 
 Kind Regards 
-Annie White 
+Roz SmithDSCA Manager
 
 Dorney Self Catering Apartments 
 Troppo Property Partnership 

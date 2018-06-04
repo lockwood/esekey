@@ -123,7 +123,7 @@ foreach($textarray as $textrow) {
 $email_tail_text .= '
 
 Kind Regards 
-Annie White 
+Roz SmithDSCA Manager
 
 Dorney Self Catering Apartments (Troppo Property Partnership) The Old Place Lock Path Dorney Windsor Berkshire SL4 6QQ Tel: 01753 827037 Email: enquiries@troppo.uk.com enquiries@dorneyselfcatering.co.uk Web: http://www.troppo.uk.com http://www.dorneyselfcatering.co.uk 
 ';

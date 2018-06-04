@@ -24,7 +24,7 @@ $legoland_price = 40;
 $extra_guests_rate = 17;
 $w_extra_guests_rate = 15;
 $rowing_rate = 20;
-$supp = 0;$marquee = 250;
+$marquee = 250;
 // new winter tariff for 2011-12 (updated for 2015-16)// winter rates no longer applied from 28/04/2017
 $winter_nights = 0;/*
 if ($end_date > '2015-10-31' && $start_date < '2016-03-01') {
@@ -47,20 +47,20 @@ if ($winter_nights > 0) { // winter tariff
 	$tariff = '1'; // Assume Standard tariff and update if different
 }
 if (($n == 1)&& (!isset($o[2]))) { // One night stays for non-rowing groups have a supplement per apartment// supplement changed to £60 per booking rather than £15 per apartment - 16/06/2017
-    if ($tariff == '6') {
-    	//winter: £10 supplement
-		$supp = 60;
+// supplement changed back to £15 per apartment - 11/03/2018	if ($tariff == '6') {
+    	//winter: £15 supplement
+		$supp = 15;
     } else {
     	//standard: £15 supplement 
-		$supp = 60;
-    }	/*
+		$supp = 15;
+    }
 	$wgb_rate += $supp;
     $smithy_rate[1] += $supp;
     $smithy_rate[2] += $supp;        $ic_rate += $supp;
     $w_wgb_rate += $supp;
     $w_smithy_rate[1] += $supp;
     $w_smithy_rate[2] += $supp;
-    $w_ic_rate += $supp;	// */    $additional_info .= 'Single night supplement of £'.$supp.' applies.<br>';
+    $w_ic_rate += $supp;    $additional_info .= 'Single night supplement of £'.$supp.' applies.<br>';
 }
 $w_cost_per_night = 0;
 $discount = '0';
@@ -77,7 +77,7 @@ if (isset($o[2])) { // rowing special offer - $rowing_rate
         $w_guests_remaining = $w_guests_remaining - 2;
         $guests_remaining = $guests_remaining - 2;
        	$cost_per_night = $cost_per_night + $wgb_rate;
-       	$w_cost_per_night = $w_cost_per_night + $w_wgb_rate;       	       	$extra_guest_space += 2;
+       	$w_cost_per_night = $w_cost_per_night + $w_wgb_rate;       	       	$extra_guest_space += 3;
     }
     if (isset($r[2])) { // Gardeners Bothy: 2 standard + 5 extra
         $w_guests_remaining = $w_guests_remaining - 2;
@@ -134,11 +134,11 @@ if (isset($o[2])) { // rowing special offer - $rowing_rate
         }
     }
 }if (isset($r[4])) { // Flo's Cabin	$cost_per_night = $cost_per_night + $fc_rate;	$w_cost_per_night = $w_cost_per_night + $w_fc_rate;	$additional_info .= 'Includes '.$fc.' additional guests in Flo&#039;s Cabin.<br>';}if (isset($o[3])) {	$cost_per_night = $cost_per_night + $dog_rate;	$w_cost_per_night = $w_cost_per_night + $dog_rate;		$additional_info .= 'Includes £'.$dog_rate.' per night pet supplement.<br>';}
-$price = 0;// supplement changed to £60 per booking rather than £15 per apartment - 16/06/2017
-$price = $price + ($cost_per_night * $non_winter_nights) + ($w_cost_per_night * $winter_nights) + $supp;
+$price = 0;
+$price = $price + ($cost_per_night * $non_winter_nights) + ($w_cost_per_night * $winter_nights);
 if (isset($r[6])) { // Marquee	$additional_info .= 'Includes one-off fee of £'.$marquee.' for hire of marquee.<br>';	$price = $price + $marquee;}if ($lp > 0) {
 	$price = $price + ($lp * $legoland_price);
-}if ((isset($o[4])) && ($n == 2)) { // Hen/Stag Party special offer applies
+}if ($bs > 0) {	$price = $price + ($bs * 10);	if ($bs > 1) {		$additional_info .= 'Includes '.$bs.' standard bouquets at &pound;10.<br>';	} else {		$additional_info .= 'Includes a standard bouquet at &pound;10.<br>';	}	}if ($bp > 0) {	$price = $price + ($bp * 20);	if ($bp > 1) {		$additional_info .= 'Includes '.$bp.' premium bouquets at &pound;20.<br>';	} else {		$additional_info .= 'Includes a premium bouquet at &pound;20.<br>';	}	}if ($bl > 0) {	$price = $price + ($bl * 35);	if ($bl > 1) {		$additional_info .= 'Includes '.$bl.' luxury bouquets at &pound;35.<br>';	} else {		$additional_info .= 'Includes a luxury bouquet at &pound;35.<br>';	}	}if ((isset($o[5])) && $wa > 0) {	$price = $price + ($wa * 35);	if ($wa > 1) {		$additional_info .= 'Includes '.$wa.' flower arranging workshop attendees at &pound;35.<br>';	} else {		$additional_info .= 'Includes one flower arranging workshop attendee at &pound;35.<br>';	}	}if ((isset($o[4])) && ($n == 2)) { // Hen/Stag Party special offer applies
     //$price = number_format(($price*0.75),2,'.','');
     $price = $price - 100; // changed from %discount to £100 off.
     $tariff = '7'; // negotiated tariff

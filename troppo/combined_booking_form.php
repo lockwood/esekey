@@ -110,7 +110,7 @@ if ($ss == 'User') {
             <td align="left">
               <SELECT NAME="g" class="input">
 <?php 
-for ($i=1; $i<=16; $i++) {
+for ($i=1; $i<=19; $i++) {
   if ($i == $g) { ?>
               <OPTION VALUE="<?=$i?>" SELECTED><?=$i?></OPTION><?php
   } else { ?>
@@ -125,7 +125,7 @@ for ($i=1; $i<=16; $i++) {
             <td align="left">
               <SELECT NAME="c" class="input">
 <?php 
-for ($i=0; $i<=15; $i++) {
+for ($i=0; $i<=18; $i++) {
   if ($i == $c) { ?>
               <OPTION VALUE="<?=$i?>" SELECTED><?=$i?></OPTION><?php
   } else { ?>
@@ -135,21 +135,7 @@ for ($i=0; $i<=15; $i++) {
               </SELECT>
             </td>
           </tr>
-          <tr>
-            <td align="right" nowrap class="input" colspan="3">Number of Infants (Under 3: free)</td>
-            <td align="left">
-              <SELECT NAME="i" class="input">
-<?php 
-for ($i=0; $i<=6; $i++) {
-  if ($i == $inf) { ?>
-              <OPTION VALUE="<?=$i?>" SELECTED><?=$i?></OPTION><?php
-  } else { ?>
-              <OPTION VALUE="<?=$i?>"><?=$i?></OPTION><?php
-  }
-}?>
-              </SELECT>
-            </td>
-          </tr>        </table>
+          <tr>            <td align="right" nowrap class="input" colspan="3">Number of Infants (Under 3: free)</td>            <td align="left">              <SELECT NAME="i" class="input"><?php for ($i=0; $i<=6; $i++) {  if ($i == $inf) { ?>              <OPTION VALUE="<?=$i?>" SELECTED><?=$i?></OPTION><?php  } else { ?>              <OPTION VALUE="<?=$i?>"><?=$i?></OPTION><?php  }}?>              </SELECT>            </td>          </tr>          <tr>            <td align="right" nowrap class="input" colspan="3">Bouquet - Standard (&pound;10)</td>            <td align="left">              <SELECT NAME="bs" class="input"><?php for ($i=0; $i<=30; $i++) {  if ($i == $bs) { ?>              <OPTION VALUE="<?=$i?>" SELECTED><?=$i?></OPTION><?php  } else { ?>              <OPTION VALUE="<?=$i?>"><?=$i?></OPTION><?php  }}?>              </SELECT>            </td>          </tr>          <tr>            <td align="right" nowrap class="input" colspan="3">Bouquet - Premium (&pound;20)</td>            <td align="left">              <SELECT NAME="bp" class="input"><?php for ($i=0; $i<=30; $i++) {  if ($i == $bp) { ?>              <OPTION VALUE="<?=$i?>" SELECTED><?=$i?></OPTION><?php  } else { ?>              <OPTION VALUE="<?=$i?>"><?=$i?></OPTION><?php  }}?>              </SELECT>            </td>          </tr>          <tr>            <td align="right" nowrap class="input" colspan="3">Bouquet - Luxury (&pound;35)</td>            <td align="left">              <SELECT NAME="bl" class="input"><?php for ($i=0; $i<=30; $i++) {  if ($i == $bl) { ?>              <OPTION VALUE="<?=$i?>" SELECTED><?=$i?></OPTION><?php  } else { ?>              <OPTION VALUE="<?=$i?>"><?=$i?></OPTION><?php  }}if (isset($_GET['o5'])) {	$style = '';} else {	$style = ' style="display:none;"';}?>              </SELECT>            </td>          </tr>          <tr>            <td id="wa1" align="right" nowrap class="input" colspan="3"<?=$style?>>Number of Workshop Attendees</td>            <td id="wa2" align="left"<?=$style?>>              <SELECT NAME="wa" class="input"><?php for ($i=1; $i<=30; $i++) {  if ($i == $wa) { ?>              <OPTION VALUE="<?=$i?>" SELECTED><?=$i?></OPTION><?php  } else { ?>              <OPTION VALUE="<?=$i?>"><?=$i?></OPTION><?php  }} ?>              </SELECT>            </td>          </tr>        </table>
       </td>
       <td>
         <table border="0" cellspacing="1" cellpadding="1">
@@ -186,12 +172,12 @@ if ($ss == 'Admin') {
             </td>
           </tr> 
           <tr> 
-            <td align="right" nowrap class="input">Dogs/Cats (&pound;13/night supplement)</td>
+            <td align="right" nowrap class="input">Dogs (&pound;13/night supplement)</td>
             <td align="left">
               <INPUT TYPE="checkbox" NAME="o3" VALUE="1" <?=$o[3]?>>
             </td>
           </tr>
-          <!-- temporarily remove legoland ticket sales -->
+          <tr>             <td align="right" nowrap class="input">Flower Arranging Workshop (&pound;35/person supplement)</td>            <td align="left">              <INPUT onchange="showHideWA();" TYPE="checkbox" NAME="o5" ID="o5" VALUE="1" <?=$o[5]?>>            </td>          </tr>          <!-- temporarily remove legoland ticket sales -->
           <tr style="display:none;"> 
             <td align="right" nowrap class="input">2-day Legoland Passes</td>
             <td align="left">
@@ -473,4 +459,4 @@ for ($i=0; $i<count($wyhau_options); $i++) {
       <td colspan="4"><input type="submit" class="button-cust" name="requestBooking" value="Submit Booking" align="right"></td>
     </tr>
   </table>
-</form><?php /*<script type="text/javascript">//  /* <![CDATA[ *//*function showHideFC() {	var testFC = document.getElementById('r4');	if (testFC.checked) {		document.getElementById('fc1').style.display='';		document.getElementById('fc2').style.display='';	} else {		document.getElementById('fc1').style.display='none';		document.getElementById('fc2').style.display='none';	}}  /* ]]> *///</script> if (isset($_GET['pgt']) && ($e != '')) {	$order_id = str_replace('-','',$start_date);	if (isset($r[1])) $order_id .= '1';	if (isset($r[2])) $order_id .= '2';	if (isset($r[3])) $order_id .= '3';	$amount = $deposit * 100;	$key = 'The 0ld Place Boveney';	$fields = array();	$fields['PSPID'] = 'dor6qq';	$fields['ORDERID'] = $order_id;	$fields['AMOUNT'] = $amount;	$fields['CURRENCY'] = 'GBP';	$fields['LANGUAGE'] = 'en_GB';	$fields['CN'] = $f.' '.$l;	$fields['EMAIL'] = $e;	$fields['OWNERZIP'] = $q;	$fields['OWNERADDRESS'] = $a;	if ($u != '') {		$fields['OWNERTELNO'] = $u;	}	$fields['COM'] = 'Accommodation booking: Dorney Self Catering Apartments';	$host     = $_SERVER['HTTP_HOST'];	$script   = $_SERVER['SCRIPT_NAME'];	$params   = 'p='.$_GET['p'].'&orderid='.$order_id;	$currentUrl = 'https://' . $host . $script . '?' . $params;	$fields['ACCEPTURL'] = $currentUrl.'&res=1';	$fields['DECLINEURL'] = $currentUrl.'&res=0';	if ($deposit_rate < 1) {		$fields['ALIAS'] = $order_id;		$fields['ALIASUSAGE'] = 'Your payment details will be stored securely by Barclaycard and used to collect the balance payment.';	}	ksort($fields);	$shastring = '';	?><table align="left" border="0" cellspacing="2" cellpadding="3"><tr><td><form method="post" action="https://mdepayments.epdq.co.uk/ncol/test/orderstandard.asp" id=form1 name=form1><!-- general parameters: see General Payment Parameters --><?php 	foreach ($fields as $kname=>$kvalue) {		$shastring .= $kname.'='.$kvalue.$key;		?><input type="hidden" name="<?=$kname?>" value="<?=$kvalue?>">		<?php 	}	$sha = sha1($shastring);?><input type="hidden" name="SHASIGN" value="<?=$sha?>"><input type="submit" value="Pay Now" id="submit2" name="SUBMIT2"></form></td></tr></table><?php 	}?>
+</form><script type="text/javascript">  /* <![CDATA[ */function showHideWA() {	var testWA = document.getElementById('o5');	if (testWA.checked) {		document.getElementById('wa1').style.display='';		document.getElementById('wa2').style.display='';	} else {		document.getElementById('wa1').style.display='none';		document.getElementById('wa2').style.display='none';	}}  /* ]]> */</script><?php  if (isset($_GET['pgt']) && ($e != '')) {	$order_id = str_replace('-','',$start_date);	if (isset($r[1])) $order_id .= '1';	if (isset($r[2])) $order_id .= '2';	if (isset($r[3])) $order_id .= '3';	$amount = $deposit * 100;	$key = 'The 0ld Place Boveney';	$fields = array();	$fields['PSPID'] = 'dor6qq';	$fields['ORDERID'] = $order_id;	$fields['AMOUNT'] = $amount;	$fields['CURRENCY'] = 'GBP';	$fields['LANGUAGE'] = 'en_GB';	$fields['CN'] = $f.' '.$l;	$fields['EMAIL'] = $e;	$fields['OWNERZIP'] = $q;	$fields['OWNERADDRESS'] = $a;	if ($u != '') {		$fields['OWNERTELNO'] = $u;	}	$fields['COM'] = 'Accommodation booking: Dorney Self Catering Apartments';	$host     = $_SERVER['HTTP_HOST'];	$script   = $_SERVER['SCRIPT_NAME'];	$params   = 'p='.$_GET['p'].'&orderid='.$order_id;	$currentUrl = 'https://' . $host . $script . '?' . $params;	$fields['ACCEPTURL'] = $currentUrl.'&res=1';	$fields['DECLINEURL'] = $currentUrl.'&res=0';	if ($deposit_rate < 1) {		$fields['ALIAS'] = $order_id;		$fields['ALIASUSAGE'] = 'Your payment details will be stored securely by Barclaycard and used to collect the balance payment.';	}	ksort($fields);	$shastring = '';	?><table align="left" border="0" cellspacing="2" cellpadding="3"><tr><td><form method="post" action="https://mdepayments.epdq.co.uk/ncol/test/orderstandard.asp" id=form1 name=form1><!-- general parameters: see General Payment Parameters --><?php 	foreach ($fields as $kname=>$kvalue) {		$shastring .= $kname.'='.$kvalue.$key;		?><input type="hidden" name="<?=$kname?>" value="<?=$kvalue?>">		<?php 	}	$sha = sha1($shastring);?><input type="hidden" name="SHASIGN" value="<?=$sha?>"><input type="submit" value="Pay Now" id="submit2" name="SUBMIT2"></form></td></tr></table><?php 	}?>

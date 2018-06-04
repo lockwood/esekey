@@ -71,13 +71,13 @@ if (isset($_GET['i'])) { // number of infants under 5
     $inf = $_GET['i'];
 } else {
     $inf = 0;
-}if (isset($_GET['fc'])) { // number of additional persons in Flo's Cabin	    $fc = $_GET['fc'];} else {    $fc = 0;}if (isset($_GET['sr'])) { // special requirements
+}if (isset($_GET['wa'])) { // number of workshop attendees	    $wa = $_GET['wa'];} else {    $wa = 0;}if (isset($_GET['bs'])) { // number of standard bouquets	    $bs = $_GET['bs'];} else {    $bs = 0;}if (isset($_GET['bp'])) { // number of premium bouquets	    $bp = $_GET['bp'];} else {    $bp = 0;}if (isset($_GET['bl'])) { // number of luxury bouquets	    $bl = $_GET['bl'];} else {    $bl = 0;}if (isset($_GET['sr'])) { // special requirements
     $sr = htmlentities($_GET['sr'], ENT_QUOTES);
 } else {
     $sr = htmlentities('e.g. single occupancy of double bed; cot or other items required for baby; pets to be brought, etc.', ENT_QUOTES);
 }
-for ($i = 1; $i <= 4; $i++) {  
-  if (isset($_GET['o'.$i])) { // offers - waive minimum charge & rowing group
+for ($i = 1; $i <= 5; $i++) {  
+  if (isset($_GET['o'.$i])) { // offers - waive minimum charge & rowing group & flower workshop
       $o[$i] = 'CHECKED';
   }
 }
