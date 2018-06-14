@@ -80,7 +80,7 @@ if (isset($o[2])) { // rowing special offer - $rowing_rate
             }
         }
     }
-    if (isset($r[5])) { // Imogens Cabin		$guests_allowed += 4;		$apartments[] = 'Imogen&#039;s Cabin';		$guests_remaining = $guests_remaining - 2;        if ($guests_remaining > 2) {            if ((!isset($r[3])) && (!isset($r[1])) && (!isset($r[2])) && (!isset($r[4]))) { //all remaining adults in IA                $error1.='Imogen&#039;s Cabin has a maximum of four guests.<br>';                return;            }        }    }    if (isset($r[3])) { // The Smithy
+    if (isset($r[5])) { // Immie's Cabin		$guests_allowed += 5;		$apartments[] = 'Immie&#039;s Cabin';		$guests_remaining = $guests_remaining - 2;        if ($guests_remaining > 3) {            if ((!isset($r[3])) && (!isset($r[1])) && (!isset($r[2])) && (!isset($r[4]))) { //all remaining adults in IC                $error1.='Immie&#039;s Cabin has a maximum of five guests.<br>';                return;            }        }    }    if (isset($r[3])) { // The Smithy
 		$guests_allowed += 4;
 		$apartments[] = 'The Smithy';
         $guests_remaining = $guests_remaining - 2;

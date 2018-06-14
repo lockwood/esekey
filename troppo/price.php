@@ -13,7 +13,7 @@
 $wgb_rate = 89;
 $smithy_rate = array();
 $smithy_rate[1] = 60;
-$smithy_rate[2] = 78;$ic_rate = 60;
+$smithy_rate[2] = 78;//$ic_rate = 60; use smithy rate for immie's cabin...14062018
 $fc_rate = 60;// winter rates no longer applied from 28/04/2017
 $w_wgb_rate = 79;
 $w_smithy_rate = array();
@@ -46,7 +46,7 @@ if ($winter_nights > 0) { // winter tariff
 } else {
 	$tariff = '1'; // Assume Standard tariff and update if different
 }
-if (($n == 1)&& (!isset($o[2]))) { // One night stays for non-rowing groups have a supplement per apartment// supplement changed to £60 per booking rather than £15 per apartment - 16/06/2017
+if (($n == 1) && (!isset($o[2]))) { // One night stays for non-rowing groups have a supplement per apartment// supplement changed to £60 per booking rather than £15 per apartment - 16/06/2017
 // supplement changed back to £15 per apartment - 11/03/2018	if ($tariff == '6') {
     	//winter: £15 supplement
 		$supp = 15;
@@ -85,7 +85,7 @@ if (isset($o[2])) { // rowing special offer - $rowing_rate
        	$cost_per_night = $cost_per_night + $wgb_rate;
        	$w_cost_per_night = $w_cost_per_night + $w_wgb_rate;       	       	$extra_guest_space += 5;
     }
-    if (isset($r[5])) { // Imogens Cabin: 2 standard + 2 extra        $w_guests_remaining = $w_guests_remaining - 2;        $guests_remaining = $guests_remaining - 2;       	$cost_per_night = $cost_per_night + $ic_rate;       	$w_cost_per_night = $w_cost_per_night + $w_ic_rate;       	       	$extra_guest_space += 2;    }    if (isset($r[3])) { // The Smithy: 2 standard + 2 extra
+    if (isset($r[5])) { // Immie's Cabin: 2 standard + 3 extra            if ($guests_remaining < 2) {        	$cost_per_night = $cost_per_night + $smithy_rate[1];        	$w_cost_per_night = $w_cost_per_night + $w_smithy_rate[1];        	$w_guests_remaining = 0;        	$guests_remaining = 0;        } else		{        	$w_guests_remaining = $w_guests_remaining - 2;			$guests_remaining = $guests_remaining - 2;			$cost_per_night = $cost_per_night + $smithy_rate[2];			$w_cost_per_night = $w_cost_per_night + $w_smithy_rate[2];						$extra_guest_space += 3;		}    	    }    if (isset($r[3])) { // The Smithy: 2 standard + 2 extra
         if ($guests_remaining < 2) {
         	$cost_per_night = $cost_per_night + $smithy_rate[1];
         	$w_cost_per_night = $w_cost_per_night + $w_smithy_rate[1];
